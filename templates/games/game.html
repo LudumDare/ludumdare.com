@@ -3,9 +3,11 @@
 {% block title %}{{ page.title }} | {{ super() }} {% endblock title %}
 
 {% block content %}
+{% if page.extra.video %}
 <video width="853" height="480" controls>
     <source src="{{ page.extra.video }}" type="video/mp4">
 </video>
+{% endif %}
 
 # GAME
 {{ page.content | safe }}

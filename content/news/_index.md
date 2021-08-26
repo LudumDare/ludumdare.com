@@ -1,7 +1,7 @@
 +++
 title = "ahhh"
 sort_by = "date"
-template = "news.html"
-post_template = "news_post.html"
+template = "news/section.html"
+post_template = "news/post.html"
 +++
 news feed

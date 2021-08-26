@@ -1,6 +1,6 @@
 +++
 title = "games"
-template = "games.html"
-page_template = "game.html"
+template = "games/section.html"
+page_template = "games/game.html"
 +++
 games
