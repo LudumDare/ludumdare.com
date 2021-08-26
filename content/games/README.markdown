@@ -1,5 +1,3 @@
-+++
-+++
 # How to add games
 Each game gets its own folder.
 
