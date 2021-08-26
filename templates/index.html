@@ -5,6 +5,7 @@
 {{ section.content | safe }} 
 
 {# Unfortunately we can't use "metadata_only=true" here, because we wouldn't get section children #}
+{% set sponsors = get_section(path="sponsors/_index.md") %}
 {% set news = get_section(path="news/_index.md") %}
 {% set games = get_section(path="games/_index.md") %}
 
