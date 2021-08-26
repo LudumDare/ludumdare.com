@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ config.title }}</title>
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 </head>
 
 <body>
