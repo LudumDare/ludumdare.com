@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
-GAME
+<video width="853" height="480" controls>
+    <source src="{{ page.extra.video }}" type="video/mp4">
+</video>
+
+# GAME
+{{ page.content | safe }}
+
+{% for platform in page.taxonomies.platform %}
+  <h1>{{ platform }}</h1>
+{% endfor %}
+
 {% endblock content %}

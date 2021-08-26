@@ -1,6 +1,6 @@
 +++
 title = "ahhh"
 template = "news.html"
-post_template = "post.html"
+post_template = "news_post.html"
 +++
 news feed
