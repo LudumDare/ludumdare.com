@@ -1,0 +1,40 @@
+
+$col_main: red;
+$col_dark: #232020;
+$col_light: white;
+
+html {
+	background: black;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: $col_light;
+
+	> header {
+		color: $col_light;
+		background: $col_dark;
+
+		> .hero {
+			background: $col_main;
+
+			
+			width: 100vw;
+			height: 100vh;
+			max-width: 100%;
+		}
+	}
+
+	> footer {
+		color: $col_light;
+		background: $col_dark;
+
+		padding: 2rem 1rem;
+		text-align: center;
+
+		a {
+			color: $col_main;
+		} 
+	}
+}

@@ -3,6 +3,5 @@
 {% block title %}{{ page.title }} | {{ super() }}{% endblock title %}
 
 {% block content %}
-PAGE
-{{ page.content | safe }}
+<article>{{ page.content | safe }}</article>
 {% endblock content %}

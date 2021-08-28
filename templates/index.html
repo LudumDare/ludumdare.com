@@ -1,61 +1,69 @@
 {% extends "base.html" %}
 
+{% block header %}
+<section class="hero">    
+    <div>Ludum Dare</div>
+    <div>Phrase on top of hero</div>
+</section>
+{% endblock header %}
+
 {% block content %}
-{# Hero Page #}
-<h1>Ludum Dare</h1>
-<div>Phrase on top of hero</div>
+<section class="schedule">
+    {% set schedule = get_section(path="schedule/_index.md") %}
 
-{% set schedule = get_section(path="schedule/_index.md") %}
+    <h2>Next Event: Ludum Dare 49</h2>
+    <div>Date: October 1st-4th</div>
+    <div>Where: Everywhere</div>
+    <div>Join the event</div>
 
-<h2>Next Event: Ludum Dare 49</h2>
-<div>Date: October 1st-4th</div>
-<div>Where: Everywhere</div>
-<div>Join the event</div>
+    <div>
+        {% for var in schedule.pages | reverse %}
+        {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+        {% if var.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+            <div>{{var.title}}</div>
+        {% endif %}
+        {% endfor %}
+    </div>
 
-<div class="schedule">
-    {% for var in schedule.pages | reverse %}
-    {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
-    {% if var.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+
+    <h3>Sponsors</h3>
+    {% set sponsors = get_section(path="sponsors/_index.md") %}
+    <div class="horiz">
+        {% for var in sponsors.pages %}
         <div>{{var.title}}</div>
-    {% endif %}
-    {% endfor %}
-</div>
+        {% endfor %}
+    </div>
+</section>
 
+<section class="games">
+    <h2>Random Selection of Games</h2>
+    {% set games = get_section(path="games/_index.md") %}
+    <div>
+        {% for var in games.pages %}
+        <div><a href="{{var.path}}">{{var.title}}</a></div>
+        {% endfor %}
+    </div>
+</section>
 
-<h3>Sponsors</h3>
-{% set sponsors = get_section(path="sponsors/_index.md") %}
-<div class="horiz">
-    {% for var in sponsors.pages %}
-    <div>{{var.title}}</div>
-    {% endfor %}
-</div>
+<section class="news">
+    {% set news = get_section(path="news/_index.md") %}
 
-<h2>Random Selection of Games</h2>
-{% set games = get_section(path="games/_index.md") %}
-<div>
-    {% for var in games.pages %}
-    <div><a href="{{var.path}}">{{var.title}}</a></div>
-    {% endfor %}
-</div>
+    <h2>Recent News</h2>
+    <div>
+        {% for var in news.pages %}
+        <div><a href="{{var.path}}">{{var.title}}</a></div>
+        {% endfor %}
+    </div>
 
-{% set news = get_section(path="news/_index.md") %}
+    {#
+    <hr>
 
-<h2>Recent News</h2>
-<div>
-    {% for var in news.pages %}
-    <div><a href="{{var.path}}">{{var.title}}</a></div>
-    {% endfor %}
-</div>
+    # HOME
+    {{ section.content | safe }} 
 
-{#
-<hr>
-
-# HOME
-{{ section.content | safe }} 
-
-{#
-<hr>
-{{ __tera_context }}
-#}
-
+    {#
+    <hr>
+    {{ __tera_context }}
+    #}
+</section>
 {% endblock content %}

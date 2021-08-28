@@ -1,5 +1,3 @@
 +++
-title = "Ludum Dare"
+# Placeholder. template/index.html describes this.
 +++
-# Ludum
-Dare?

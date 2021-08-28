@@ -4,14 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <link rel="stylesheet" href="/main.css">
 </head>
 
 <body>
-  <section class="section">
-    <div class="container">
-      {% block content %} {% endblock content %}
-    </div>
-  </section>
+  <header>{% block header %}Ludum Dare Header{% endblock header %}</header>
+  <main>{% block content %}{% endblock content %}</main>
+  <footer>{% block footer %}since 2002{% endblock footer %}</footer>
 </body>
 
 </html>
