@@ -4,7 +4,23 @@
 {# Hero Page #}
 <h1>Ludum Dare</h1>
 <div>Phrase on top of hero</div>
+
+{% set schedule = get_section(path="schedule/_index.md") %}
+
+<h2>Next Event: Ludum Dare 49</h2>
+<div>Date: October 1st-4th</div>
+<div>Where: Everywhere</div>
 <div>Join the event</div>
+
+<div class="schedule">
+    {% for var in schedule.pages | reverse %}
+    {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+    {% if var.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+        <div>{{var.title}}</div>
+    {% endif %}
+    {% endfor %}
+</div>
+
 
 <h3>Sponsors</h3>
 {% set sponsors = get_section(path="sponsors/_index.md") %}
@@ -14,7 +30,7 @@
     {% endfor %}
 </div>
 
-<h3>Random Selection of Games</h3>
+<h2>Random Selection of Games</h2>
 {% set games = get_section(path="games/_index.md") %}
 <div>
     {% for var in games.pages %}
@@ -24,7 +40,7 @@
 
 {% set news = get_section(path="news/_index.md") %}
 
-<h3>Recent News</h3>
+<h2>Recent News</h2>
 <div>
     {% for var in news.pages %}
     <div><a href="{{var.path}}">{{var.title}}</a></div>

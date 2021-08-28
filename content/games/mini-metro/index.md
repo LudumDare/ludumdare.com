@@ -2,7 +2,7 @@
 title = "Mini Metro"
 
 [taxonomies]
-platform = ["ios", "android", "mobile", "steam"]
+platform = ["ios", "android", "mobile", "steam", "pc"]
 event = ["26"]
 
 [extra]
