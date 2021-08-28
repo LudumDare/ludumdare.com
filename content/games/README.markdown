@@ -26,7 +26,7 @@ Platforms have general names and specific names. Please include **both** the gen
     * ps-vita
     * ps3
     * ps4
-   * ps5
+    * ps5
   *  nintendo
     * 3ds
     * wii
