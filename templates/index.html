@@ -1,26 +1,45 @@
 {% extends "base.html" %}
 
 {% block content %}
-{# Unfortunately we can't use "metadata_only=true" here, because we wouldn't get section children #}
+{# Hero Page #}
+<h1>Ludum Dare</h1>
+<div>Phrase on top of hero</div>
+<div>Join the event</div>
+
+<h3>Sponsors</h3>
 {% set sponsors = get_section(path="sponsors/_index.md") %}
-{% set news = get_section(path="news/_index.md") %}
+<div class="horiz">
+    {% for var in sponsors.pages %}
+    <div>{{var.title}}</div>
+    {% endfor %}
+</div>
+
+<h3>Random Selection of Games</h3>
 {% set games = get_section(path="games/_index.md") %}
+<div>
+    {% for var in games.pages %}
+    <div><a href="{{var.path}}">{{var.title}}</a></div>
+    {% endfor %}
+</div>
 
+{% set news = get_section(path="news/_index.md") %}
 
-{% for var in sponsors.pages %}
-<h2>SPON: {{ var.title }}</h2>
-{% endfor %}
+<h3>Recent News</h3>
+<div>
+    {% for var in news.pages %}
+    <div><a href="{{var.path}}">{{var.title}}</a></div>
+    {% endfor %}
+</div>
 
-{% for var in news.pages %}
-<h2>VAR: {{ var.title }}</h2>
-{% endfor %}
-
+{#
 <hr>
 
 # HOME
 {{ section.content | safe }} 
 
+{#
 <hr>
 {{ __tera_context }}
+#}
 
 {% endblock content %}

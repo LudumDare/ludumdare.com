@@ -1,8 +1,10 @@
 +++
 title = "Mini Metro"
+
 [taxonomies]
-platform = ["ios", "android", "steam"]
+platform = ["ios", "android", "mobile", "steam"]
 event = ["26"]
+
 [extra]
 video = "https://cdn.akamai.steamstatic.com/steam/apps/256657129/movie480.mp4"
 screenshots = [
