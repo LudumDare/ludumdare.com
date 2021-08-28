@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% block title %}{{ page.title }} | {{ super() }}{% endblock title %}
+
 {% block content %}
 # NEWS POST
 {{ page.content | safe }}
