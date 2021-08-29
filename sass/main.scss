@@ -18,13 +18,42 @@ body {
 	> header {
 		color: $col_light;
 		background: $col_dark;
+		position: relative;
 
 		> .hero {
-			/*background: $col_main;*/
-			
+			/* viewport dimensions */
 			width: 100vw;
 			height: 100vh;
-			max-width: 100%; /* Firefox bugfix */
+			max-width: 100%; /* To Firefox, 100vw omits the scrollbar */
+
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/hero/hello-lightbulb-unsplash-2560.jpg");
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			//background-attachment: fixed;
+
+
+			> div {
+				position: absolute;
+				transform: translate(-50%, -50%);
+				top: 50%;
+				left: 50%;
+			}
+
+			img {
+				width: 35vw;
+				margin: 2rem;
+			}
+		}
+
+		nav {
+			color: $col_light;
+			background: rgba($col_dark, 0.8);
+
+			> div {
+				display: inline-block;
+				padding: 2rem 1rem;
+			}
 		}
 	}
 
@@ -53,10 +82,14 @@ body {
 		/* default */
 		$col: $col_light;
 		color: $col;
+		border-color: rgba($col, 0.7);
 		background: rgba($col, 0.2);
+
+		transition: color 0.25s, border-color 0.25s, background 0.25s; 
 
 		&:hover {
 			color: $col_dark;
+			border-color: $col;
 			background: $col;
 		}
 
@@ -64,10 +97,12 @@ body {
 		&.dark {
 			$col: $col_dark;
 			color: $col;
+			border-color: rgba($col, 0.7);
 			background: rgba($col, 0.2);
 
 			&:hover {
 				color: $col_light;
+				border-color: $col;
 				background: $col;
 			}
 		}

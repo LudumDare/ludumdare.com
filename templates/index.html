@@ -1,9 +1,18 @@
 {% extends "base.html" %}
 
 {% block header %}
-<section class="hero">    
-    <div>Ludum Dare</div>
-    <div>Phrase on top of hero</div>
+<section class="hero">
+    <nav>
+        <div>ABOUT</div>
+        <div>SCHEDULE</div>
+        <div>NEWS</div>
+        <div>FEATURED GAMES</div>
+    </nav>
+    <div>
+        <img src="ldlogo.svg" alt="Ludum Dare">
+        <div>The worlds largest online game jam</div>
+        <a href="https://ldjam.com" class="button">Join the event</a>
+    </div>
 </section>
 {% endblock header %}
 
@@ -35,6 +44,18 @@
     </div>
 </section>
 
+<section class="news">
+    {% set news = get_section(path="news/_index.md") %}
+
+    <h2>Recent News</h2>
+    <div>
+        {% for var in news.pages %}
+        <div><a href="{{var.path}}">{{var.title}}</a></div>
+        {% endfor %}
+    </div>
+</section>
+
+
 <section class="games">
     <h2>Featured Games</h2>
     <div>Coming soon</div>
@@ -55,25 +76,10 @@
     #}
 </section>
 
-<section class="news">
-    {% set news = get_section(path="news/_index.md") %}
-
-    <h2>Recent News</h2>
-    <div>
-        {% for var in news.pages %}
-        <div><a href="{{var.path}}">{{var.title}}</a></div>
-        {% endfor %}
-    </div>
 
     {#
     <hr>
 
-    # HOME
-    {{ section.content | safe }} 
-
-    {#
-    <hr>
     {{ __tera_context }}
     #}
-</section>
 {% endblock content %}
