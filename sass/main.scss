@@ -1,8 +1,10 @@
+@use "sass:color";
 
 $col_main: red;
 $col_dark: #232020;
 $col_light: white;
 $col_void: black;
+
 
 html {
 	background: $col_void;
@@ -38,5 +40,36 @@ body {
 		a {
 			color: $col_main;
 		} 
+	}
+
+	.button {
+		padding: 1rem 2rem;
+		border: 3px solid;
+
+		display: inline-block;
+		text-decoration: none;
+		margin: 1rem;
+
+		/* default */
+		$col: $col_light;
+		color: $col;
+		background: rgba($col, 0.2);
+
+		&:hover {
+			color: $col_dark;
+			background: $col;
+		}
+
+		/* dark version*/
+		&.dark {
+			$col: $col_dark;
+			color: $col;
+			background: rgba($col, 0.2);
+
+			&:hover {
+				color: $col_light;
+				background: $col;
+			}
+		}
 	}
 }
