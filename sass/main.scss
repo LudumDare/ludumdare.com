@@ -2,9 +2,10 @@
 $col_main: red;
 $col_dark: #232020;
 $col_light: white;
+$col_void: black;
 
 html {
-	background: black;
+	background: $col_void;
 }
 
 body {
@@ -18,7 +19,6 @@ body {
 
 		> .hero {
 			background: $col_main;
-
 			
 			width: 100vw;
 			height: 100vh;
@@ -30,8 +30,10 @@ body {
 		color: $col_light;
 		background: $col_dark;
 
-		padding: 2rem 1rem;
-		text-align: center;
+		> section {
+			padding: 2rem 1rem;
+			text-align: center;
+		}
 
 		a {
 			color: $col_main;
