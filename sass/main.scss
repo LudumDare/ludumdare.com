@@ -18,11 +18,11 @@ body {
 		background: $col_dark;
 
 		> .hero {
-			background: $col_main;
+			/*background: $col_main;*/
 			
 			width: 100vw;
 			height: 100vh;
-			max-width: 100%;
+			max-width: 100%; /* Firefox bugfix */
 		}
 	}
 

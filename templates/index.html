@@ -36,7 +36,9 @@
 </section>
 
 <section class="games">
-    <h2>Random Selection of Games</h2>
+    <h2>Featured Games</h2>
+    <div>Coming soon</div>
+    {#
     {% set games = get_section(path="games/_index.md") %}
     <div>
         {% for var in games.pages %}
@@ -50,6 +52,7 @@
     <a href="/platform/nintendo">Nintendo</a>
     <a href="/platform/mobile">Mobile</a>
     <a href="/platform/homebrew">Homebrew</a>
+    #}
 </section>
 
 <section class="news">
