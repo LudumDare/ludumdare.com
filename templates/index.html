@@ -1,13 +1,9 @@
 {% extends "base.html" %}
+{% import "_macros.html" as macros %}
 
 {% block header %}
 <section class="hero">
-    <nav>
-        <div>ABOUT</div>
-        <div>SCHEDULE</div>
-        <div>NEWS</div>
-        <div>FEATURED GAMES</div>
-    </nav>
+    {{ macros::nav(logo=false) }}
     <div>
         <img src="ldlogo.svg" alt="Ludum Dare">
         <div>The worlds largest online game jam</div>

@@ -1,0 +1,15 @@
+{% macro nav(logo=true) %}
+<nav>
+    {% if logo %}
+    <div class="left">
+        <a href="/"><img src="/ldlogo.svg" alt="Ludum Dare"></a>
+    </div>
+    {% endif %}
+    <div class="right">
+        <a href="/#about">ABOUT</a>
+        <a href="/#schedule">SCHEDULE</a>
+        <a href="/#news">NEWS</a>
+        {#<a href="/#games">FEATURED GAMES</a>#}
+    </div>
+</nav>
+{% endmacro nav %}
