@@ -6,10 +6,18 @@
     </div>
     {% endif %}
     <div class="right">
+        {#
         <a href="/#about">ABOUT</a>
         <a href="/#schedule">SCHEDULE</a>
         <a href="/#news">NEWS</a>
         {#<a href="/#games">FEATURED GAMES</a>#}
+        <a href="https://twitter.com/ludumdare">TWITTER</a>
+        <a href="https://newsletter.ldjam.com">NEWSLETTER</a>
     </div>
 </nav>
 {% endmacro nav %}
+
+
+{% macro footer() %}
+<section>Ludum Dare — Est. 2002 {#[TWITTER] [CONTACT]#}</section>
+{% endmacro footer %}
