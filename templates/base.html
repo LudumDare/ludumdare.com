@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="/main.css?version={{get_file_hash(path="/main.css", sha_type=256)}}">
 </head>
 
 <body>
