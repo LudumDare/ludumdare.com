@@ -121,6 +121,24 @@ body {
 			display: flex;
 			justify-content: space-between;
 
+			svg {
+				fill: currentColor;
+				width: 24px;
+				height: 24px;
+			}
+
+			.icons > a {
+				margin: 0.35rem;
+
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+
 			a {
 				color: #BBB;
 	
@@ -128,6 +146,19 @@ body {
 					color: $col_main;
 				}
 			} 
+
+			section > section {
+				display: inline-block;
+				//margin: 0.5rem;
+/*
+				&:first-child {
+					margin-left: 0;
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}*/
+			}
 
 			/* Grid */
 			> div {
