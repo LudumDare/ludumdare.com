@@ -26,6 +26,8 @@ body {
 		background: $col_dark;
 		position: relative;
 
+		letter-spacing: 0.05rem;
+
 		> .hero {
 			/* viewport dimensions */
 			width: 100vw;
@@ -48,11 +50,18 @@ body {
 				transform: translate(-50%, -50%);
 				top: 50%;
 				left: 50%;
+
+				& > * {
+					margin: 1.5rem;
+				}
+
+				& > div {
+					font-size: 1.2rem;
+				}
 			}
 
 			img {
 				width: 35vw;
-				margin: 2rem;
 			}
 		}
 
