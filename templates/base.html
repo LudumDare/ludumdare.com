@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  {# redirects to https if on ludumdare.com #}
   <script>
     if ((location.protocol !== 'https:') && (location.host.toLowerCase() == "ludumdare.com")) {
       location.replace(`https:${location.href.substring(location.protocol.length)}`);
@@ -15,7 +16,41 @@
   </script>
   <header>{% block header %}<section>Ludum Dare Header</section>{% endblock header %}</header>
   <main>{% block content %}{% endblock content %}</main>
-  <footer>{% block footer %}<section>Ludum Dare — Est. 2002 {#[TWITTER] [CONTACT]#}</section>{% endblock footer %}</footer>
+  <footer>
+    <div class="body">
+      <div class="tm">
+        <section><img src="ldlogo.svg"></section>
+        <section>Ludum Dare and LDJAM are trademarks of Interactive Snacks Limited</section>
+      </div>
+      <div>
+        <h1>EXPLORE</h1>
+        <section><a href="https://ludumdare.com">Ludum Dare</a></section>
+        <section><a href="https://ldjam.com">LDJAM Event Home</a></section>
+        <section><a href="https://ldjam.com/rules">LDJAM Rules</a></section>
+        <section>Schedule</section>
+      </div>
+      <div>
+        <h1>CONNECT</h1>
+        <section><a href="/contact">Contact</a></section>
+        <section><a href="https://newsletter.ldjam.com">Email Newsletter</a></section>
+        <section>
+          <a href="https://twitter.com/ludumdare" target="_blank">Twitter</a>
+          <a href="https://github.com/ludumdare" target="_blank">GitHub</a>
+          <a href="https://youtube.com/ludumdare" target="_blank">YouTube</a>
+          <a href="https://twitch.tv/ludumdare" target="_blank">Twitch</a>
+        </section>
+      </div>
+      <div class="legal">
+        <section>Games are provided under their respective licenses. Except where otherwise noted, other content is provided under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International</a> license</section>
+        <section>This website's source code <a href="https://github.com/interactivesnacks/ludumdare.com" target="_blank">is available</a> under an MIT open source license</section>
+        
+      </div>
+    </div>
+    <div class="copyright">
+      <section>© {{now() | date(format="%Y")}} <a href="https://interactivesnacks.com">Interactive Snacks Limited</a></section>
+      <section><a href="/privacy">Privacy</a></section>
+    </div>
+  </footer>
 </body>
 
 </html>

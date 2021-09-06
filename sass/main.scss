@@ -5,6 +5,8 @@ $col_dark: #232020;
 $col_light: white;
 $col_void: black;
 
+$width: 1280px;
+
 
 html {
 	background: $col_void;
@@ -93,14 +95,94 @@ body {
 		color: $col_light;
 		background: $col_dark;
 
-		> section {
-			padding: 2rem 1rem;
-			text-align: center;
+		letter-spacing: 0.05rem;
+
+		h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 1rem;
+			font-weight: normal;
+
+			color: white;
+
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
 		}
 
-		a {
-			color: $col_main;
-		} 
+		.body {
+			/*padding: 2em 0;*/
+			width: $width;
+			margin: auto;
+			padding: 3rem 0;
+
+			font-size: 0.75rem;
+			color: #777;
+
+			display: flex;
+			justify-content: space-between;
+
+			a {
+				color: #BBB;
+	
+				&:hover {
+					color: $col_main;
+				}
+			} 
+
+			/* Grid */
+			> div {
+				//flex: 1;
+				width: 20%;
+
+				& section {
+					margin: 1.25rem 0;
+
+					&:first-child {
+						margin-top: 0;
+					}
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			.tm {
+				margin: auto 0; /* align to middle */
+				width: 25%;
+				& img {
+					max-width: 70%;
+				}
+			}
+
+			.legal {
+				text-align: justify;
+				width: 25%;
+			}
+
+
+		}
+
+		.copyright {
+			border-top: 1px solid white;
+			padding: 1rem 0 3rem 0;
+			width: $width;
+			margin: auto;
+			
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+
+			display: flex;
+			justify-content: space-between;
+
+			a {
+				color: white;
+
+				&:hover {
+					color: $col_main;
+				}
+			} 		
+		}
 	}
 
 	.button {
