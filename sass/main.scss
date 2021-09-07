@@ -6,6 +6,7 @@ $col_light: white;
 $col_void: black;
 
 $width: 1280px;
+$min_width: $width - 320px;
 
 
 html {
@@ -130,7 +131,7 @@ body {
 			display: flex;
 			justify-content: space-between;
 
-			svg {
+			.icons svg {
 				fill: currentColor;
 				width: 24px;
 				height: 24px;
@@ -156,19 +157,6 @@ body {
 				}
 			} 
 
-			section > section {
-				display: inline-block;
-				//margin: 0.5rem;
-/*
-				&:first-child {
-					margin-left: 0;
-				}
-
-				&:last-child {
-					margin-right: 0;
-				}*/
-			}
-
 			/* Grid */
 			> div {
 				//flex: 1;
@@ -190,18 +178,54 @@ body {
 			.tm {
 				margin: auto 0; /* align to middle */
 				width: 25%;
+	
 				& img {
 					max-width: 70%;
 				}
 			}
 
+			.nav {
+				width: 40%;
+				display: flex;
+				justify-content: space-between;
+	
+				> div {
+					width: 45%;
+				}
+			}
+		
 			.legal {
-				text-align: justify;
 				margin: auto 0; /* align to middle */
 				width: 25%;
+
+				text-align: justify;
 			}
 
-
+			@media (max-width: $min_width) {
+				width: 100%;
+				display: block;
+	
+				.connect {
+					text-align: right;
+				}
+	
+				.tm {
+					text-align: center;
+				}
+	
+				.col {
+					margin: 3rem auto;
+					width: 90%;
+	
+					&:first-child {
+						margin-top: 0;
+					}
+	
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
 		}
 
 		.copyright {
@@ -215,6 +239,7 @@ body {
 			letter-spacing: 0.2rem;
 
 			display: flex;
+			flex-direction: row-reverse;
 			justify-content: space-between;
 
 			a {
@@ -223,7 +248,19 @@ body {
 				&:hover {
 					color: $col_main;
 				}
-			} 		
+			}
+
+			@media (max-width: $min_width) {
+				width: 100%;
+				display: block;
+	
+				letter-spacing: 0.1rem;
+				text-align: center;
+	
+				> section {
+					margin: 1rem;
+				}
+			}
 		}
 	}
 
