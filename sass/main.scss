@@ -129,7 +129,7 @@ body {
 		width: $width;
 		margin: 0 auto;
 
-		.event-name {
+		.name {
 			font-weight: bold;
 		}
 
@@ -151,7 +151,29 @@ body {
 
 	article {
 		width: $width;
-		margin: auto;
+		margin: 4rem auto;
+
+		h1 {
+			font-size: 2rem;
+		}
+		h2 {
+			margin-top: 2.5rem;
+		}
+		h3 {
+			margin-top: 2rem;
+		}
+
+		&.press {
+			h1 {
+				margin-bottom: 0.25rem;
+			}
+			p {
+				font-size: 1.125rem;
+			}
+			sub {
+				color: grey;
+			}
+		}
 	}
 
 	> footer {
@@ -314,6 +336,15 @@ body {
 					margin: 1rem 0;
 				}
 			}
+		}
+	}
+
+	.wide {
+		display: flex;
+		margin: auto;
+		width: $width;
+		> * {
+			flex: 1;
 		}
 	}
 

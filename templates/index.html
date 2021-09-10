@@ -12,61 +12,63 @@
 {% endblock header %}
 
 {% block content %}
-<section class="schedule">
-    <a name="schedule"></a>
+<div class="wide">
+    {# SCHEDULE #}
+    <section class="schedule">
+        <a name="schedule"></a>
 
-    {% set schedule = get_section(path="schedule/_index.md") %}
-    {% set_global index = 0 %}
-    {% for event in schedule.pages | reverse %}
-    {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
-    {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
-        {# NEXT EVENT #}
-        {% set_global index = index + 1 %}
-        {% if index == 1 %}
-            <h4 class="margin_nobottom">Next Event:</h4>
-            <h2 class="margin_notop">{{event.title}}</h2>
-            {% if event.extra.datestring.range %}
-                <div>Date: {{event.extra.datestring.range}}</div>
-            {% else %}
-                <div>Date: {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
-            {% endif %}
-            <div>Where: Online!</div>
-            <div class="button dark"><a href="https://ldjam.com">Join the Event</a></div>
-
-            {% set sponsors = get_section(path="sponsors/_index.md") %}
-            {% if sponsors.pages | length > 0 %}
-            <h4>Sponsored by</h4>
-            <div class="horiz">
-                {% for sponsor in sponsors.pages %}
-                {% if not sponsor.extra.inactive %}
-                    <img src="{{sponsor.extra.image}}" />
+        {% set schedule = get_section(path="schedule/_index.md") %}
+        {% set_global index = 0 %}
+        {% for event in schedule.pages | reverse %}
+        {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+        {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+            {# NEXT EVENT #}
+            {% set_global index = index + 1 %}
+            {% if index == 1 %}
+                <h4 class="margin_nobottom">Next Event:</h4>
+                <h2 class="margin_notop">{{event.title}}</h2>
+                {% if event.extra.datestring.range %}
+                    <div><span class="name">Date:</span> {{event.extra.datestring.range}}</div>
+                {% else %}
+                    <div><span class="name">Date:</span> {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
                 {% endif %}
-                {% endfor %}
-            </div>
+                <div><span class="name">Where:</span> Online!</div>
+                <div class="button dark"><a href="https://ldjam.com">Join the Event</a></div>
+
+                {% set sponsors = get_section(path="sponsors/_index.md") %}
+                {% if sponsors.pages | length > 0 %}
+                <h4>Sponsored by</h4>
+                <div class="horiz">
+                    {% for sponsor in sponsors.pages %}
+                    {% if not sponsor.extra.inactive %}
+                        <img src="{{sponsor.extra.image}}" />
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <h3>Upcoming Events:</h3>
+                {# OTHER EVENTS #}
+            {% else %}
+                <p><span class="name">{{event.title}}</span> — <span class="date">{{event.extra.datestring.range}}</span></p>
             {% endif %}
-
-            <h3>Upcoming Events:</h3>
-            {# OTHER EVENTS #}
-        {% else %}
-            <p><span class="event-name">{{event.title}}</span> — <span class="date">{{event.extra.datestring.range}}</span></p>
         {% endif %}
-    {% endif %}
-    {% endfor %}
-</section>
-
-{#
-<section class="news">
-    {#
-    {% set news = get_section(path="news/_index.md") %}
-
-    <h2>Recent News</h2>
-    <div>
-        {% for var in news.pages %}
-        <div><a href="{{var.path}}">{{var.title}}</a></div>
         {% endfor %}
-    </div>
-    #}
-</section>
+    </section>
+
+    {# NEWS #}
+    <section class="news">
+        <a name="news"></a>
+
+        {% set news = get_section(path="news/_index.md") %}
+        <h2>Latest News</h2>
+        <div>
+            {% for var in news.pages | slice(end=8) %}
+                <p>{{var.date}}: <a href="{{var.path}}"><strong>{{var.title}}</strong></a></p>
+            {% endfor %}
+        </div>
+    </section>
+</div>
 
 
 <section class="games">
