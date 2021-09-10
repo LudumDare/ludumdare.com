@@ -162,6 +162,10 @@ body {
 				color: rgba($col_dark, 0.4);
 			}
 		}
+
+		@media (max-width: $min_width) {
+			width: 90%;
+		}
 	}
 
 	> footer {
