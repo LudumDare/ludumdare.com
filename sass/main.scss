@@ -64,41 +64,94 @@ body {
 			img {
 				width: 35vw;
 			}
+
+			@media (max-width: $min_width) {
+				> div {
+					width: 90%;
+				}
+
+				img {
+					width: 100%;
+				}
+			}
 		}
 
 		nav {
-			display: flex;
+			width: 100%;
 
 			color: $col_light;
 			background: rgba($col_dark, 0.8);
 
-			div {
-				display: inline-block;
-			}
+			> div {
+				width: $width;
+				margin: auto;
+				display: flex;
 
-			div.left {
-				float: left;
-				img {
-					height: 48px;
-					margin: 1rem;
-				}
-			}
-
-			div.right {
-				margin-left: auto;
-
-				a {
+				div {
 					display: inline-block;
-					padding: 2rem 1rem;
+				}
 
-					color: $col_light;
-
-					&:hover {
-						color: $col_main;
+				div.left {
+					float: left;
+					img {
+						height: 48px;
+						margin: 1rem;
 					}
+
+					&:first-child * {
+						margin-left: 0;
+					}
+				}
+
+				div.right {
+					margin-left: auto;
+
+					a {
+						display: inline-block;
+						padding: 2rem 1rem;
+
+						color: $col_light;
+
+						&:hover {
+							color: $col_main;
+						}
+					}
+
+					/*&:last-child * {
+						padding-right: 0;
+					}*/
 				}
 			}
 		}
+	}
+
+	.schedule {
+		width: $width;
+		margin: 0 auto;
+
+		.event-name {
+			font-weight: bold;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			letter-spacing: 0.1rem;
+		}
+
+		.margin_nobottom {
+			margin-bottom: 0;
+		}
+		.margin_notop {
+			margin-top: 0;
+		}
+
+		@media (max-width: $min_width) {
+			width: 90%;
+		}
+	}
+
+	article {
+		width: $width;
+		margin: auto;
 	}
 
 	> footer {
@@ -234,7 +287,7 @@ body {
 			width: $width;
 			margin: auto;
 			
-			font-size: 0.9rem;
+			font-size: 0.85rem;
 			text-transform: uppercase;
 			letter-spacing: 0.2rem;
 
@@ -258,35 +311,39 @@ body {
 				text-align: center;
 	
 				> section {
-					margin: 1rem;
+					margin: 1rem 0;
 				}
 			}
 		}
 	}
 
 	.button {
-		padding: 1rem 2rem;
-		border: 3px solid;
-
+		margin: 1rem auto;
 		display: inline-block;
-		margin: 1rem;
 
 		/* default */
-		$col: $col_light;
-		color: $col;
-		border-color: rgba($col, 0.7);
-		background: rgba($col, 0.2);
+		> a {
+			padding: 1rem 2rem;
+			border: 3px solid;
 
-		transition: color 0.25s, border-color 0.25s, background 0.25s; 
+			display: block;
 
-		&:hover {
-			color: $col_dark;
-			border-color: $col;
-			background: $col;
+			transition: color 0.25s, border-color 0.25s, background 0.25s; 
+
+			$col: $col_light;
+			color: $col;
+			border-color: rgba($col, 0.7);
+			background: rgba($col, 0.2);
+
+			&:hover {
+				color: $col_dark;
+				border-color: $col;
+				background: $col;
+			}
 		}
 
 		/* dark version*/
-		&.dark {
+		&.dark > a {
 			$col: $col_dark;
 			color: $col;
 			border-color: rgba($col, 0.7);

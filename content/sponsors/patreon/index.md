@@ -1,6 +1,7 @@
 +++
 title = "Patreon"
-# lower numbers come first
-weight = 1000
+weight = 1000       # lower numbers come first
+draft = true
+[extra]
 +++
 Patreon
