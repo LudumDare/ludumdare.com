@@ -27,7 +27,7 @@ body {
 		background: $col_dark;
 		position: relative;
 
-		letter-spacing: 0.05rem;
+		letter-spacing: 0.1rem;
 
 		> .hero {
 			/* viewport dimensions */
@@ -123,6 +123,12 @@ body {
 						display: block;
 					}
 
+					div.left {
+						margin-right: auto;
+						text-align: center;
+						display: block;
+					}
+
 					div.right {
 						margin-left: auto;
 						text-align: center;
@@ -161,6 +167,10 @@ body {
 			sub {
 				color: rgba($col_dark, 0.4);
 			}
+		}
+
+		@media (max-width: $min_width) {
+			width: 90%;
 		}
 	}
 

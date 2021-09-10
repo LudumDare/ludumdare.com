@@ -26,7 +26,7 @@
                 {# NEXT EVENT #}
                 {% set_global index = index + 1 %}
                 {% if index == 1 %}
-                    <h2>Next Event:</h2>
+                    <h2>Next Event</h2>
 
                     {% if event.extra.poster %}
                         {% set image = resize_image(path=event.extra.poster, width=640, op="fit_width") %}
@@ -65,7 +65,7 @@
         {# NEWS #}
         <section class="news">
             {% set schedule = get_section(path="schedule/_index.md") %}
-            <h1>Schedule:</h1>
+            <h1>Schedule</h1>
             {% for event in schedule.pages | reverse %}
             {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
             {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
