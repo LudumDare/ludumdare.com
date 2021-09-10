@@ -389,14 +389,19 @@ body {
 	}
 
 	.subheader {
-		background: #ed573a;
+		/*background: #ed573a;*/
+		background: #643;
 		color: white;
 
-		a {
+		a, a:visited {
 			//color: #f69236;
 			color: #f6e276
 		}
-
+		
+		a:hover {
+			color: $col_main;
+		}
+	
 		@media (max-width: $min_width) {
 			padding: 1rem 0;
 		}
@@ -416,9 +421,10 @@ body {
 		display: flex;
 
 		/* default */
-		> a {
+		> a, a:visited {
 			padding: 1rem 2rem;
 			border: 3px solid;
+			text-transform: uppercase;
 
 			display: inline-block;
 			margin: auto;
@@ -429,12 +435,13 @@ body {
 			color: $col;
 			border-color: rgba($col, 0.7);
 			background: rgba($col, 0.2);
+		}
 
-			&:hover {
-				color: $col_dark;
-				border-color: $col;
-				background: $col;
-			}
+		a:hover {
+			$col: $col_light;
+			color: $col_dark;
+			border-color: $col;
+			background: $col;
 		}
 
 		/* dark version*/
