@@ -79,7 +79,7 @@
             <h1 class="cheat">Latest News</h1>
             <div>
                 {% for var in news.pages | slice(end=6) %}
-                    <p>{{var.date}}: <a href="{{var.path}}"><strong>{{var.title}}</strong></a></p>
+                    <p>{{var.date}}: <a href="{{var.path}}">{{var.title}}</a></p>
                 {% endfor %}
             </div>
         </section>
