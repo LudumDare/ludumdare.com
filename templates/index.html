@@ -14,7 +14,7 @@
 {% block content %}
 <div class="wide">
     {# SCHEDULE #}
-    <section class="schedule">
+    <section class="upcoming">
         <a name="schedule"></a>
 
         {% set schedule = get_section(path="schedule/_index.md") %}
@@ -25,14 +25,21 @@
             {# NEXT EVENT #}
             {% set_global index = index + 1 %}
             {% if index == 1 %}
-                <h4 class="margin_nobottom">Next Event:</h4>
-                <h2 class="margin_notop">{{event.title}}</h2>
-                {% if event.extra.datestring.range %}
-                    <div><span class="name">Date:</span> {{event.extra.datestring.range}}</div>
+                <h4>Next Event:</h4>
+
+                {% if event.extra.poster %}
+                    {% set image = resize_image(path=event.extra.poster, width=640, op="fit_width") %}
+                    <img src="{{ image.url }}" class="poster" alt="{{event.title}} - {{event.extra.datestring.range}}" />
                 {% else %}
-                    <div><span class="name">Date:</span> {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
+                    <h2>{{event.title}}</h2>
+                    {% if event.extra.datestring.range %}
+                        <div><strong>Date:</strong> {{event.extra.datestring.range}}</div>
+                    {% else %}
+                        <div><strong>Date:</strong> {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
+                    {% endif %}
+                    <div><strong>Where:</strong> Online!</div>
                 {% endif %}
-                <div><span class="name">Where:</span> Online!</div>
+
                 <div class="button dark"><a href="https://ldjam.com">Join the Event</a></div>
 
                 {% set sponsors = get_section(path="sponsors/_index.md") %}
@@ -46,11 +53,10 @@
                     {% endfor %}
                 </div>
                 {% endif %}
+                <p></p>
 
-                <h3>Upcoming Events:</h3>
                 {# OTHER EVENTS #}
             {% else %}
-                <p><span class="name">{{event.title}}</span> — <span class="date">{{event.extra.datestring.range}}</span></p>
             {% endif %}
         {% endif %}
         {% endfor %}
@@ -58,6 +64,15 @@
 
     {# NEWS #}
     <section class="news">
+        {% set schedule = get_section(path="schedule/_index.md") %}
+        <h2>Schedule:</h2>
+        {% for event in schedule.pages | reverse %}
+        {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+        {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+            <p><strong>{{event.title}}</strong> — <span class="date">{{event.extra.datestring.range}}</span></p>
+        {% endif %}
+        {% endfor %}
+
         <a name="news"></a>
 
         {% set news = get_section(path="news/_index.md") %}
