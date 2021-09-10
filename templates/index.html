@@ -46,13 +46,12 @@
                     {% set sponsors = get_section(path="sponsors/_index.md") %}
                     {% if sponsors.pages | length > 0 %}
                     <h4>Sponsored by</h4>
-                    <div class="horiz">
-                        {% for sponsor in sponsors.pages %}
+                    {% for sponsor in sponsors.pages %}
                         {% if not sponsor.extra.inactive %}
-                            <img src="{{sponsor.extra.image}}" />
+                            {% set image = resize_image(path=sponsor.extra.logo.light, height=64, op="fit_height") %}
+                            <img src="{{image.url}}" class="sponsor"/>
                         {% endif %}
-                        {% endfor %}
-                    </div>
+                    {% endfor %}
                     {% endif %}
                     <p></p>
 
