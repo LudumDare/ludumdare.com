@@ -2,7 +2,7 @@
 
 $col_main: red;
 $col_dark: #232020;
-$col_light: white;
+$col_light: #EEE;
 $col_void: black;
 
 $width: 1280px;
@@ -147,16 +147,6 @@ body {
 		width: $width;
 		margin: 4rem auto;
 
-		h1 {
-			font-size: 2rem;
-		}
-		h2 {
-			margin-top: 2.5rem;
-		}
-		h3 {
-			margin-top: 2rem;
-		}
-
 		&.press {
 			h1 {
 				margin-bottom: 0.25rem;
@@ -165,7 +155,7 @@ body {
 				font-size: 1.125rem;
 			}
 			sub {
-				color: grey;
+				color: rgba($col_dark, 0.4);
 			}
 		}
 	}
@@ -341,6 +331,7 @@ body {
 
 		> * {
 			width: 48%;
+			margin: 3rem 0;
 		}
 
 		@media (max-width: $min_width) {
@@ -353,16 +344,70 @@ body {
 		}
 	}
 
+	.subheader, main {
+		font-size: 1.125rem;
+
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Urbanist', sans-serif;
+			font-weight: 100;
+			letter-spacing: 0.2rem;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+		}
+		h2 {
+			font-size: 2rem;
+			margin-top: 2.5rem;
+		}
+		h3 {
+			font-size: 1.75rem;
+			margin-top: 2.25rem;
+		}
+		h4 {
+			font-size: 1.5rem;
+			margin-top: 2.0rem;
+		}
+
+		.cheat {
+			margin-top: 6rem;
+		}
+	}
+
+	.subheader {
+		background: #ed573a;
+		color: white;
+
+		a {
+			//color: #f69236;
+			color: #f6e276
+		}
+
+		@media (max-width: $min_width) {
+			padding: 1rem 0;
+		}
+	}
+
+	main {
+		background: $col_light;
+		color: $col_dark;
+
+		a {
+			color: #ed573a;
+		}
+	}
+
 	.button {
 		margin: 1rem auto;
-		display: inline-block;
+		display: flex;
 
 		/* default */
 		> a {
 			padding: 1rem 2rem;
 			border: 3px solid;
 
-			display: block;
+			display: inline-block;
+			margin: auto;
 
 			transition: color 0.25s, border-color 0.25s, background 0.25s; 
 

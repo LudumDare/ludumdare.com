@@ -11,103 +11,106 @@
 </section>
 {% endblock header %}
 
-{% block content %}
-<div class="wide">
-    {# SCHEDULE #}
-    <section class="upcoming">
-        <a name="schedule"></a>
+{% block subheader %}
+<div class="subheader">
+    <div class="wide">
+        {# SCHEDULE #}
+        <section class="upcoming">
+            <a name="schedule"></a>
 
-        {% set schedule = get_section(path="schedule/_index.md") %}
-        {% set_global index = 0 %}
-        {% for event in schedule.pages | reverse %}
-        {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
-        {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
-            {# NEXT EVENT #}
-            {% set_global index = index + 1 %}
-            {% if index == 1 %}
-                <h4>Next Event:</h4>
+            {% set schedule = get_section(path="schedule/_index.md") %}
+            {% set_global index = 0 %}
+            {% for event in schedule.pages | reverse %}
+            {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+            {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+                {# NEXT EVENT #}
+                {% set_global index = index + 1 %}
+                {% if index == 1 %}
+                    <h2>Next Event:</h2>
 
-                {% if event.extra.poster %}
-                    {% set image = resize_image(path=event.extra.poster, width=640, op="fit_width") %}
-                    <img src="{{ image.url }}" class="poster" alt="{{event.title}} - {{event.extra.datestring.range}}" />
-                {% else %}
-                    <h2>{{event.title}}</h2>
-                    {% if event.extra.datestring.range %}
-                        <div><strong>Date:</strong> {{event.extra.datestring.range}}</div>
+                    {% if event.extra.poster %}
+                        {% set image = resize_image(path=event.extra.poster, width=640, op="fit_width") %}
+                        <img src="{{ image.url }}" class="poster" alt="{{event.title}} - {{event.extra.datestring.range}}" />
                     {% else %}
-                        <div><strong>Date:</strong> {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
+                        <h2>{{event.title}}</h2>
+                        {% if event.extra.datestring.range %}
+                            <div><strong>Date:</strong> {{event.extra.datestring.range}}</div>
+                        {% else %}
+                            <div><strong>Date:</strong> {{event.date | date(format="%B%e")}} - {{event.date | date(format="%e") | int + 3 }}, {{event.date | date(format="%Y")}}</div>
+                        {% endif %}
+                        <div><strong>Where:</strong> Online!</div>
                     {% endif %}
-                    <div><strong>Where:</strong> Online!</div>
-                {% endif %}
 
-                <div class="button dark"><a href="https://ldjam.com">Join the Event</a></div>
+                    <div class="button light"><a href="https://ldjam.com">Join the Event</a></div>
 
-                {% set sponsors = get_section(path="sponsors/_index.md") %}
-                {% if sponsors.pages | length > 0 %}
-                <h4>Sponsored by</h4>
-                <div class="horiz">
-                    {% for sponsor in sponsors.pages %}
-                    {% if not sponsor.extra.inactive %}
-                        <img src="{{sponsor.extra.image}}" />
+                    {% set sponsors = get_section(path="sponsors/_index.md") %}
+                    {% if sponsors.pages | length > 0 %}
+                    <h4>Sponsored by</h4>
+                    <div class="horiz">
+                        {% for sponsor in sponsors.pages %}
+                        {% if not sponsor.extra.inactive %}
+                            <img src="{{sponsor.extra.image}}" />
+                        {% endif %}
+                        {% endfor %}
+                    </div>
                     {% endif %}
-                    {% endfor %}
-                </div>
-                {% endif %}
-                <p></p>
+                    <p></p>
 
-                {# OTHER EVENTS #}
-            {% else %}
+                    {# OTHER EVENTS #}
+                {% else %}
+                {% endif %}
             {% endif %}
-        {% endif %}
-        {% endfor %}
-    </section>
+            {% endfor %}
+        </section>
 
-    {# NEWS #}
-    <section class="news">
-        {% set schedule = get_section(path="schedule/_index.md") %}
-        <h2>Schedule:</h2>
-        {% for event in schedule.pages | reverse %}
-        {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
-        {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
-            <p><strong>{{event.title}}</strong> — <span class="date">{{event.extra.datestring.range}}</span></p>
-        {% endif %}
-        {% endfor %}
+        {# NEWS #}
+        <section class="news">
+            {% set schedule = get_section(path="schedule/_index.md") %}
+            <h1>Schedule:</h1>
+            {% for event in schedule.pages | reverse %}
+            {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
+            {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+                <p><strong>{{event.title}}</strong> — <span class="date">{{event.extra.datestring.range}}</span></p>
+            {% endif %}
+            {% endfor %}
 
-        <a name="news"></a>
+            <a name="news"></a>
 
-        {% set news = get_section(path="news/_index.md") %}
-        <h2>Latest News</h2>
+            {% set news = get_section(path="news/_index.md") %}
+            <h1 class="cheat">Latest News</h1>
+            <div>
+                {% for var in news.pages | slice(end=6) %}
+                    <p>{{var.date}}: <a href="{{var.path}}"><strong>{{var.title}}</strong></a></p>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+
+    <section class="games">
+        {#
+        <h2>Featured Games</h2>
+        <div>Coming soon</div>
+        {#
+        {% set games = get_section(path="games/_index.md") %}
         <div>
-            {% for var in news.pages | slice(end=8) %}
-                <p>{{var.date}}: <a href="{{var.path}}"><strong>{{var.title}}</strong></a></p>
+            {% for var in games.pages %}
+            <div><a href="{{var.path}}">{{var.title}}</a></div>
             {% endfor %}
         </div>
+        <h3>More Games</h3>
+        <a href="/platform/steam">Steam</a>
+        <a href="/platform/playstation">PlayStation</a>
+        <a href="/platform/xbox">Xbox</a>
+        <a href="/platform/nintendo">Nintendo</a>
+        <a href="/platform/mobile">Mobile</a>
+        <a href="/platform/homebrew">Homebrew</a>
+        #}
     </section>
 </div>
+{% endblock subheader %}
 
-
-<section class="games">
-    {#
-    <h2>Featured Games</h2>
-    <div>Coming soon</div>
-    {#
-    {% set games = get_section(path="games/_index.md") %}
-    <div>
-        {% for var in games.pages %}
-        <div><a href="{{var.path}}">{{var.title}}</a></div>
-        {% endfor %}
-    </div>
-    <h3>More Games</h3>
-    <a href="/platform/steam">Steam</a>
-    <a href="/platform/playstation">PlayStation</a>
-    <a href="/platform/xbox">Xbox</a>
-    <a href="/platform/nintendo">Nintendo</a>
-    <a href="/platform/mobile">Mobile</a>
-    <a href="/platform/homebrew">Homebrew</a>
-    #}
-</section>
-
-
+{% block content %}
     {#
     <hr>
 

@@ -5,7 +5,10 @@
   <meta charset="utf-8">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <link rel="stylesheet" href="/main.css?version={{get_file_hash(path="/main.css", sha_type=256)}}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -16,6 +19,7 @@
     }
   </script>
   <header>{% block header %}<section>Ludum Dare Header</section>{% endblock header %}</header>
+  {% block subheader %}{% endblock subheader %}
   <main>{% block content %}{% endblock content %}</main>
   <footer>
     <div class="body">
