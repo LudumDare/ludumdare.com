@@ -48,8 +48,14 @@
                     <h4>Sponsored by</h4>
                     {% for sponsor in sponsors.pages %}
                         {% if not sponsor.extra.inactive %}
+                            {% if sponsor.extra.link %}
+                                <a href="{{sponsor.extra.link}}" target="_blank">
+                            {% endif %}
                             {% set image = resize_image(path=sponsor.extra.logo.light, height=64, op="fit_height") %}
                             <img src="{{image.url}}" class="sponsor"/>
+                            {% if sponsor.extra.link %}
+                                </a>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                     {% endif %}
@@ -79,7 +85,7 @@
             <h1 class="cheat">Latest News</h1>
             <div>
                 {% for var in news.pages | slice(end=6) %}
-                    <p>{{var.date}}: <a href="{{var.path}}">{{var.title}}</a></p>
+                    <p>{{var.date}}: <a href="{{var.path}}">{% if var.extra.short_title %}{{var.extra.short_title}}{% else %}{{var.title}}{% endif %}</a></p>
                 {% endfor %}
             </div>
         </section>
