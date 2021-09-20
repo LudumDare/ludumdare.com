@@ -168,6 +168,10 @@ body {
 			sub {
 				color: rgba($col_dark, 0.4);
 			}
+
+			img {
+				max-width: 100%;
+			}
 		}
 
 		@media (max-width: $min_width) {

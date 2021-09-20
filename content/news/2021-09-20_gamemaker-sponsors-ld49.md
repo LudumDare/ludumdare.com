@@ -1,5 +1,5 @@
 +++
-title = "Ludum Dare partners with GameMaker Studio 2 to support Ludum Dare 49 Event"
+title = "Ludum Dare 49 Event partners with GameMaker Studio 2 to make game creation more popular and accessible"
 [extra]
 where = "London, Ontario"
 short_title = "GameMaker Studio 2 to support Ludum Dare 49 Event"
@@ -10,13 +10,15 @@ short_title = "GameMaker Studio 2 to support Ludum Dare 49 Event"
 
 As part of its mission to make game design more accessible, GameMaker recently removed the free trial limit, making it completely free for anyone to access its powerful tools and functionality. At Ludum Dare 49, GameMaker will once again be free to use, but will also offer free exports to everyone participating in this hugely anticipated development event.
 
+![](/sponsors/gamemaker/gamemaker-x-ludumdare.png)
+
 The partnership will also see Opera GX, GameMaker and Interactive Snacks collaborate more closely on the development of future events, where Opera’s technology will help give creators even more reason to join the event and showcase their creativity.
 
-_“GameMaker has always been an extremely popular game jam engine, as it enables participants to rapidly turn creative ideas into working prototypes,”_ said Russell Kay, CTO of YoYo Games. _“Which is why we’re proud to be partnering with Interactive Snacks to support Ludum Dare and hopefully make entering this prestigious event more accessible to creators of all levels.”_
+**_“GameMaker has always been an extremely popular game jam engine, as it enables participants to rapidly turn creative ideas into working prototypes,”_** said Russell Kay, CTO of YoYo Games. **_“Which is why we’re proud to be partnering with Interactive Snacks to support Ludum Dare and hopefully make entering this prestigious event more accessible to creators of all levels.”_**
 
-"GameMaker is a tool with a long history in Ludum Dare" said Interactive Snacks founder Mike Kasprzak. "We’ve seen many games conceived in our event grow into successful commercial games, and many of those were made in GameMaker. We are excited to be working with Opera, and look forward to seeing what you create.”
+**_"GameMaker is a tool with a long history in Ludum Dare"_** said Interactive Snacks founder Mike Kasprzak. **_"We’ve seen many games conceived in our event grow into successful commercial games, and many of those were made in GameMaker. We are excited to be working with Opera, and look forward to seeing what you create.”_**
 
-Ludum Dare 49 takes place on October 1st-4th weekend.
+Ludum Dare 49 takes place on the weekend of October 1st-4th.
 
 You can learn more about Ludum Dare by visiting [ludumdare.com](https://ludumdare.com).
 
@@ -28,7 +30,7 @@ In 2019 Opera launched Opera GX, a browser built for gamers with features that i
 #### About GameMaker Studio 2
 GameMaker Studio 2 is the fastest and friendliest cross-platform game development technology out there. GameMaker Studio 2 has been completely redeveloped with usability and efficiency at its core, allowing artists and game creators to make games within a single code base and then publish them to run natively across multiple platforms including Android, iOS, HTML5, PlayStation, Xbox, Nintendo Switch, Windows Desktop, OS X, Ubuntu, Windows UWP.
 
-The GameMaker family of products has been downloaded more than 10 million times since 2012. The team behind it is based in Dundee, Scotland and was acquired by Opera in January 2021.
+The GameMaker family of products has been downloaded more than 10 million times since 2012. Game Maker is part of the Opera Group. The team behind it is based in Dundee, Scotland and was acquired by Opera in January 2021.
 
 #### About Interactive Snacks
 Founded in 2020 by Mike Kasprzak, long time game industry veteran and caretaker of the popular Ludum Dare "game jam" event. Interactive Snacks Limited is a Canadian company that operates Ludum Dare. Ludum Dare is a trademark of Interactive Snacks Limited. Learn more at [interactivesnacks.com](https://interactivesnacks.com).
