@@ -1,8 +1,8 @@
 +++
-title = "Ludum Dare 49 Event partners with GameMaker Studio 2 to make game creation more popular and accessible"
+title = "Ludum Dare 49 partners with GameMaker Studio 2 which offers free access and learning resources"
 [extra]
 where = "London, Ontario"
-short_title = "GameMaker Studio 2 to support Ludum Dare 49 Event"
+short_title = "Ludum Dare 49 partners with GameMaker Studio 2"
 +++
 #### _Leading 2D game development software supports popular game development event_
 
@@ -33,7 +33,7 @@ GameMaker Studio 2 is the fastest and friendliest cross-platform game developmen
 The GameMaker family of products has been downloaded more than 10 million times since 2012. Game Maker is part of the Opera Group. The team behind it is based in Dundee, Scotland and was acquired by Opera in January 2021.
 
 #### About Interactive Snacks
-Founded in 2020 by Mike Kasprzak, long time game industry veteran and caretaker of the popular Ludum Dare "game jam" event. Interactive Snacks Limited is a Canadian company that operates Ludum Dare. Ludum Dare is a trademark of Interactive Snacks Limited. Learn more at [interactivesnacks.com](https://interactivesnacks.com).
+Founded in 2020 by Mike Kasprzak, longtime game industry veteran and caretaker of the popular Ludum Dare "game jam" event. Interactive Snacks Limited is a Canadian company that operates Ludum Dare. Ludum Dare is a trademark of Interactive Snacks Limited. Learn more at [interactivesnacks.com](https://interactivesnacks.com).
 
 #### About Ludum Dare
 Established in 2002, Ludum Dare is one of the longest running events of its kind. Ludum Dare is an online event that challenges creators to make a game from scratch in a weekend. Every year, creators from around the world come together to make thousands of original games as part of the event. Learn more at [ludumdare.com](https://ludumdare.com).
