@@ -51,7 +51,7 @@
                             {% if sponsor.extra.link %}
                                 <a href="{{sponsor.extra.link}}" target="_blank">
                             {% endif %}
-                            {% set image = resize_image(path=sponsor.extra.logo.light, height=64, op="fit_height") %}
+                            {% set image = resize_image(path=sponsor.extra.logo.light, height=58, op="fit_height") %}
                             <img src="{{image.url}}" class="sponsor"/>
                             {% if sponsor.extra.link %}
                                 </a>
