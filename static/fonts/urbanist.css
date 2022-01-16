@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(/fonts/urbanist/Urbanist-Thin.woff2) format('woff2');
+}
