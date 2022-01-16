@@ -162,9 +162,10 @@ At full capacity, we _could_ run up to 4 events per year (January, April, July, 
 
 
 ## Education
-We've established ourselves as a great tool for motivate yourself to make games. The next step is to focus on teaching you how to make games, OR what to do with a game after making them.
+We've established ourselves as a great tool for motivate you to make games. A logical next step would be to focus on education. After signing up, we could present resources that teach you how to make games, or how to use a new tool. We can also offer advice for what to do with a game after. Polishing, submitting to Itch, publishing on Steam, etc.
 
 #### Prerequisites
+* Establish some standards
 * Time and (hu)manpower
 
 
@@ -178,4 +179,5 @@ Each bootcamp focuses on a specific development tool or workflow.
 * Establish our education stuff
 * Build a curriculum
 * Time and (hu)manpower
+* Instructor(s)
 * Budget
