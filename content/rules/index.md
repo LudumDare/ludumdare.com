@@ -15,7 +15,7 @@ Games created for Ludum Dare are submitted to 1 of 3 categories: **Jam**, **Comp
 
 
 ## The Jam category
-The **Jam** is the category for everyone. Teams, individuals, anyone looking to join us and make a game.
+The **Jam** is the category is for everyone. Teams, individuals, anyone looking to join us and make a game.
 
 1.  Work alone or in a team.
 2.  Create a game in **72 hours**.
@@ -198,3 +198,5 @@ We currently showcase Ludum Dare games available on **[Steam](http://store.steam
 Previous editions of the rules can be found here:
 
 * [2017 Edition](/rules/2017/)
+
+In addition, you can check out the roadmap for changes under consideration [here](/roadmap).
