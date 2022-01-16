@@ -43,19 +43,19 @@
 
                     <div class="button light"><a href="https://ldjam.com">Join the Event</a></div>
 
+                    {# Only show active sponsors, otherwise don't mention sponsors #}
                     {% set sponsors = get_section(path="sponsors/_index.md") %}
-                    {% if sponsors.pages | length > 0 %}
+                    {% set pages = sponsors.pages | filter(attribute="extra.active", value=true) %}
+                    {% if pages | length > 0 %}
                     <h4>Sponsored by</h4>
-                    {% for sponsor in sponsors.pages %}
-                        {% if not sponsor.extra.inactive %}
-                            {% if sponsor.extra.link %}
-                                <a href="{{sponsor.extra.link}}" target="_blank">
-                            {% endif %}
-                            {% set image = resize_image(path=sponsor.extra.logo.light, height=58, op="fit_height") %}
-                            <img src="{{image.url}}" class="sponsor"/>
-                            {% if sponsor.extra.link %}
-                                </a>
-                            {% endif %}
+                    {% for sponsor in pages %}
+                        {% if sponsor.extra.link %}
+                            <a href="{{sponsor.extra.link}}" target="_blank">
+                        {% endif %}
+                        {% set image = resize_image(path=sponsor.extra.logo.light, height=58, op="fit_height") %}
+                        <img src="{{image.url}}" class="sponsor"/>
+                        {% if sponsor.extra.link %}
+                            </a>
                         {% endif %}
                     {% endfor %}
                     {% endif %}
@@ -84,7 +84,7 @@
             {% set news = get_section(path="news/_index.md") %}
             <h1 class="cheat">Latest News</h1>
             <div>
-                {% for var in news.pages | slice(end=6) %}
+                {% for var in news.pages | slice(end=5) %}
                     <p>{{var.date}}: <a href="{{var.path}}">{% if var.extra.short_title %}{{var.extra.short_title}}{% else %}{{var.title}}{% endif %}</a></p>
                 {% endfor %}
             </div>
