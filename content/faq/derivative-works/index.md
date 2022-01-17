@@ -2,6 +2,7 @@
 title = "Derivative Works"
 weight = 100 # lower is better
 +++
+
 Derivative works vaguely describe what we recommend. We don't want to limit how you create your visuals, but we want you to be careful when you do it.
 
 We don't Police submissions, but do understand that participants criticize Compo games more harshly. They expect to see games created entirely from scratch. If it's obvious that assets are borrowed and edited, your fellow participants **may score you poorly**.
