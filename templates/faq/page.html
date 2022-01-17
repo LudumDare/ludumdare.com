@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "_macros.html" as macros %}
+
+{% block header %}<section>{{macros::nav()}}</section>{% endblock header %}
+{% block title %}{{page.title}} | {{super()}}{% endblock title %}
+
+{% block content %}
+<article>
+    <h4><a href="..">Frequently Asked Questions</a></h4>
+    {% if not page.extra.no_title %}
+        <h1>{{page.title}}</h1>
+        {% if page.updated %}<sub>Last updated: {{page.updated | date(format="%B %e, %Y")}}</sub>{% endif %}
+    {% endif %}
+    {{page.content | safe}}
+</article>
+{% endblock content %}

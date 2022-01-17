@@ -1,14 +1,15 @@
 {% extends "base.html" %}
 {% import "_macros.html" as macros %}
 
-{% block header %}<section>{{ macros::nav() }}</section>{% endblock header %}
+{% block header %}<section>{{macros::nav()}}</section>{% endblock header %}
 {% block title %}{{section.title}} | {{super()}}{% endblock title %}
 
 {% block content %}
-{{page.content | safe}}
+<article>
+    {{section.content | safe}}
 
-{% for page in section.pages %}
-<h2>VAR: <a href="{{page.path}}">{{page.title}}</a></h2>
-{% endfor %}
-
+    {% for page in section.pages %}
+    <h2>VAR: <a href="{{page.path}}">{{page.title}}</a></h2>
+    {% endfor %}
+</article>
 {% endblock content %}
