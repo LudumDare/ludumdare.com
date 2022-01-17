@@ -16,7 +16,7 @@ Answer to the topic or question.
 
 FAQ articles are sorted by weight. Articles without a weight will not show up on the `/faq/` page. You should include a weight of `100` by default. Including the default ensures we can easily prioritize important topics ahead of others in the future.
 
-Be sure to include a blank line between the 2nd `+++` and the article text. This is to make `.md` files more readable on GitHub. Omitting the blank line merges everything into a single paragraph.
+Be sure to include a blank line between the 2nd `+++` and the article text. This isn't required by Zola, but it makes `.md` files more readable on GitHub. Omitting the blank line merges everything into a single paragraph.
 
 
 ## Articles with assets
