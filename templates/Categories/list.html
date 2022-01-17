@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% import "_macros.html" as macros %}
+
+{% block header %}<section>{{macros::nav()}}</section>{% endblock header %}
+{% block title %}{{taxonomy.name}} | {{super()}}{% endblock title %}
+
+{% block content %}
+<article>
+    <h1>All {{taxonomy.name}}</h1>
+
+    <ul>
+    {% for term in terms %}
+        <li><a href="{{term.permalink}}">{{term.name}}</a></li>
+    {% endfor %}
+    </ul>
+</article>
+{% endblock content %}

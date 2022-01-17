@@ -11,8 +11,13 @@ build_search_index = true
 ignored_content = ["README.markdown"]
 
 taxonomies = [
-	{name = "platform"},#, feed = true},
-	{name = "event"},#, feed = true}
+	# Games
+	{name = "Platform"},
+	{name = "Event"},
+	{name = "Tags"},
+
+	# Articles, FAQ
+	{name = "Categories"},
 ]
 
 [markdown]

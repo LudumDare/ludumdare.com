@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% import "_macros.html" as macros %}
+
+{% block header %}<section>{{macros::nav()}}</section>{% endblock header %}
+{% block title %}{{taxonomy.name}}: {{term.name}} | {{super()}}{% endblock title %}
+
+{% block content %}
+<article>
+    <h1><a href="..">{{taxonomy.name}}</a>: {{term.name}}</h1>
+
+    <h2>Articles</h2>
+    <ul>
+    {# I wanted to sort by weight here, but taxonomies omit weight from pages #}
+    {% for page in term.pages %}
+        <li>
+            <a href="{{page.permalink}}">{{page.title}}</a>
+            {% if page.description %}<span>- {{page.description}}</span>{% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+</article>
+{% endblock content %}

@@ -1,6 +1,8 @@
 +++
 title = "Derivative Works"
-weight = 100 # lower is better
+weight = 100
+[taxonomies]
+Categories = ["Rules","Art","Music"]
 +++
 
 Derivative works vaguely describe what we recommend. We don't want to limit how you create your visuals, but we want you to be careful when you do it.

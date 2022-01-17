@@ -1,7 +1,10 @@
 +++
-title = "Rules"
+title = "The Rules"
+description = "Current rules for Ludum Dare game jam events"
 updated = "2022-01-20"
-draft = true
+weight = 10
+[taxonomies]
+Categories = ["Rules","Jam","Compo","Extra"]
 +++
 **Ludum Dare** is an online event where you to create a game _from scratch_ in a weekend.
 
