@@ -1,4 +1,4 @@
 +++
 title = "Frequently Asked Questions"
 +++
-Who is your daddy?
+# Frequently Asked Questions about Ludum Dare

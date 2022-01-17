@@ -1,24 +1,30 @@
 +++
 title = "Rules"
+updated = "2022-01-20"
 draft = true
 +++
+# Rules
 **Ludum Dare** is an online event where you to create a game _from scratch_ in a weekend.
 
 Each event has a theme. Themes are suggested by and voted on by the community. The chosen theme is revealed _at the start_.
 
-To take part in **Ludum Dare**, you must create an account on [`ldjam.com`](https://ldjam.com). The `ldjam.com` website is used to share work-in-progress blog posts, and to submit your game.
+Depending on your preference, **Ludum Dare** events come in casual, competitive, and strict formats.
+
+To take part in **Ludum Dare**, you must create an account on our event website at [`ldjam.com`](https://ldjam.com). `ldjam.com` is used to suggest and vote on themes, to share work-in-progress blog posts, to rate and discover games, and finally to submit your game.
+
+To get the most out of **Ludum Dare**, see the [best practices](/faq/best-practices/).
 
 
 ### Submitting Games
 
-Games created for Ludum Dare are submitted to 1 of 3 categories: **Jam**, **Compo**, or **Extra**.
+Games created for Ludum Dare are submitted to one of competitive categories: **Jam** and **Compo**, or our casual category: **Extra**.
 
 
 ## The Jam category
-The **Jam** is the category is for everyone. Teams, individuals, anyone looking to join us and make a game.
+The **Jam** is the competitive category is for everyone. Teams, individuals, anyone looking to join us for traditional Ludum Dare experience.
 
-1.  Work alone or in a team.
-2.  Create a game in **72 hours**.
+1.  You must work alone or in a team.
+2.  You must create your game in **72 hours** from the announcement of the theme.
 
 Jam games _are_ eligible for ratings.
 
@@ -81,54 +87,6 @@ For all the following, you **must** have the legal right to use something.
 * Photos and recordings you make of people or things are allowed, just you must acquire them **during the event**.
 * Content generators are allowed. In fact, they're encouraged. [sfxr](http://www.drpetter.se/project_sfxr.html), the popular sound effect generator was originally created for Ludum Dare.
 * Texture masks, brushes, drums, loops, sampled instruments, and similar assets are allowed, but **only if** they are used to create a **derivative work**. i.e. a Song, a complex soundscape, a unique piece of artwork, etc. See below.
-
-
-## Derivative Works Explained
-Derivative Works is a vague way to describe what we allow, but we don't want to limit how you create your assets or visuals.
-
-We don't Police submissions, but do understand that participants criticize Compo games more harshly. They expect to see games created entirely from scratch. If it's obvious that assets are borrowed and edited, your fellow participants **may score you poorly**.
-
-Here are some **bad derivatives** (not necessarily bad looking):
-
-![Bad derivative](2017/MariosBad2.png)
-
-You can easily see the silhouette and details of the **original** (left) in the **derivative** (right).
-
-While this is technically a derivative, there's a big problem: **the original artwork belongs to Nintendo**, who doesn't grant permission to do this sort of thing (these are fan works, harmless, but still legally grey). If you plan to create artwork this way, you should enter the **Jam** instead.
-
-![Good and bad texture derivatives](2017/Textures1.png)
-
-Colorizing a grain texture is _technically_ a derivative, but it's not a very good one.
-
-A better derivative uses the grain texture to add detail. For example, we [start with a chart](http://www.afternet.org/stats), blend it with a distorted version of the grain texture, apply a scanline post-process effect, and play with our levels. The result is something that could go on a CRT TV, health monitor, or anything Sciencey.
-
-![CRT derivative example](2017/TVTime2.jpg)
-
-A good derivative transforms a work in to something new.
-
-If you need to make reference to a well known character, then make the character your own.
-
-![Mario variations by Johan Peitz, Jinn, fyaro2k, Sos Sosowski, geno2925, and Jinn](2017/Marios1.png)
-
-_Marios by: [Johan Peitz], Jinn, fyaro2k, [Sos Sosowski], geno2925, and Jinn_
-
-Draw it to the best of your ability. Your fellow participants are mostly programmers, so don't feel you need to make good art.
-
-![Low quality but valid Mario variation](2017/MarioFail.png "the 'M' is for Masterpiece")
-
-“Programmer Art” is welcome (and encouraged). 😀
-
-Music is a highly derivative artform (I mean that in the best way possible). Songs are often constructed from samples, loops (repeating samples), virtual instruments (sometimes made of samples), or recordings (technically also a sample). Sampling is almost inescapable in music today.
-
-To demonstrate, we'll start with a set of audio samples:
-
-https://soundcloud.com/ludumdare/sets/derivative-work-example
-
-Here is a song created using these samples:
-
-https://soundcloud.com/ludumdare/derivative-work-example-song-alarmed-by-kevin-bradshaw
-
-Thanks to [Kevin Bradshaw](https://twitter.com/_Gaeel_) for making this.
 
 
 ## Additional Notes for both the Jam and Compo
