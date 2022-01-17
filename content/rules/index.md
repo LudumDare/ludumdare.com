@@ -3,7 +3,6 @@ title = "Rules"
 updated = "2022-01-20"
 draft = true
 +++
-# Rules
 **Ludum Dare** is an online event where you to create a game _from scratch_ in a weekend.
 
 Each event has a theme. Themes are suggested by and voted on by the community. The chosen theme is revealed _at the start_.
