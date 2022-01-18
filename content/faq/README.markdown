@@ -1,7 +1,13 @@
-# How to add new FAQ articles
+# The Ludum Dare FAQ and Knowledge Base
+yay
+
+**NOTE:** The knowledge base should only contain articles and FAQ's about the Ludum Dare event and website(s). Generally speaking question about making games should go in the appropriate section of the [Jammer Academy](https://jammer.academy) knowledge base. In cases where it is tool _and_ Ludum Dare specific, it can be included here.
+
+
+# How to add new articles
 Create a new `.md` file in the `/content/faq/` folder.
 
-File names should only contain lower case letters, numbers, and dashes. The article slug (URL) of will be the file name. For example, `best-practices.md` will get published at `ludumdare.com/faq/best-practices/`.
+File names should only contain lower case letters, numbers, and dashes. The article slug (URL) of the article will be the file name. For example, `best-practices.md` will get published at `ludumdare.com/faq/best-practices/`.
 
 A simple article should be structured as follows.
 
@@ -16,7 +22,7 @@ Categories = ["Rules"]
 Answer to the topic or question.
 ```
 
-As a rule of thumb, the title and the filename should match. For example, the filename for the above article should be `topic-or-question.md`. You should make an effort t 
+As a rule of thumb, the title and the filename should match. For example, the filename for the above article should be `topic-or-question.md`.
 
 FAQ articles are sorted by weight. Articles without a weight will not show up on the `/faq/` page. You should include a weight of `100` by default. Including the default ensures we can easily prioritize important topics ahead of others in the future.
 
