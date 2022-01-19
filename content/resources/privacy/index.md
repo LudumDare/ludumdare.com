@@ -1,5 +1,10 @@
 +++
 title = "Privacy Policy"
+weight = 250
+
+aliases = [
+    "/privacy/"
+]
 
 extra.reference = "https://getterms.io/g/yxAQD"
 +++

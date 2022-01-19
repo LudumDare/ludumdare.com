@@ -1,0 +1,1 @@
+Authors author Articles. They do not include game authors.
