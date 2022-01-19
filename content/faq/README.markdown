@@ -1,7 +1,7 @@
-# The Ludum Dare FAQ and Knowledge Base
+# Ludum Dare FAQ and Knowledge Base
 yay
 
-**NOTE:** The knowledge base should only contain articles and FAQ's about the Ludum Dare event and website(s). Generally speaking question about making games should go in the appropriate section of the [Jammer Academy](https://jammer.academy) knowledge base. In cases where it is tool _and_ Ludum Dare specific, it can be included here.
+**NOTE:** The knowledge base should only contain articles and FAQ's about the Ludum Dare event and website(s). Generally questions about making games should go in the appropriate section of the [Jammer Academy](https://jammer.academy) knowledge base. In cases where it is tool _and_ Ludum Dare specific, it can be included here.
 
 
 # How to add new articles

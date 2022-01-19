@@ -3,6 +3,9 @@ title = "The Rules"
 description = "Current rules for Ludum Dare game jam events"
 updated = "2022-01-20"
 weight = 10
+aliases = [
+    "/rules/"
+]
 [taxonomies]
 Categories = ["Rules","Jam","Compo","Extra"]
 +++

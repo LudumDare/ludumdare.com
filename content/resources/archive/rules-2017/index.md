@@ -1,6 +1,12 @@
 +++
 title = "Rules (from 2017)"
+weight = 1000
 +++
+
+**IMPORTANT**: These rules are out of date. Please visit [`/rules/`](/rules/) for the latest.
+
+---
+
 **Ludum Dare** is an event where you _create a game from scratch_ in a weekend based on a theme.
 
 Themes are suggested and chosen by the community. **Theme Suggestions** are accepted starting 5 weeks before the event. **Theme Voting** kicks off 2 weeks before the event.
