@@ -2,6 +2,11 @@
 title = "Roadmap"
 draft = true
 weight = 100
+
+aliases = [
+    "/roadmap/"
+]
+
 +++
 The following is a living document, a snapshot of where we would like Ludum Dare to go. 
 
