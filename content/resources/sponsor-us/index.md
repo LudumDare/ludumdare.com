@@ -4,7 +4,8 @@ weight = 200
 
 aliases = [
     "/sponsor/",
-    "/sponsor-us/"
+    "/sponsor-us/",
+    "/resources/sponsor/"
 ]
 +++
 
