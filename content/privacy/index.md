@@ -1,6 +1,6 @@
 +++
 title = "Privacy Policy"
-weight = 250
+in_search_index = false
 
 extra.reference = "https://getterms.io/g/yxAQD"
 +++

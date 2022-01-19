@@ -1,5 +1,6 @@
 +++
 title = "Support us!"
+in_search_index = false
 +++
 
 Patreon n stuff
