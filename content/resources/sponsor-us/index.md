@@ -1,6 +1,7 @@
 +++
 title = "How to sponsor Ludum Dare"
 weight = 200
+draft = true
 
 aliases = [
     "/sponsor/",

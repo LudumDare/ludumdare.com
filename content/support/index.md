@@ -1,6 +1,7 @@
 +++
 title = "Support"
 in_search_index = false
+draft = true
 
 aliases = [
     "/contact/"
