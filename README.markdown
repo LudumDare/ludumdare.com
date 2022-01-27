@@ -11,13 +11,14 @@ We will continue to expand the website, but at this time the focus is on the ite
 
 `ludumdare.com` is powered by the [Zola](https://www.getzola.org) static website generator.
 
-## How to contribute
+
+# IMPORTANT!
+This is not Ludum Dare's event website! Sources for the event website are part of [Jammer Core](https://github.com/JammerCore/jammercore)
+
+
+# How to contribute
 If you have a question for the FAQ, open an issue.
 
 If you have an answer for the FAQ, fork the repository, [following the guide](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq), and submit a pull request.
 
 If you need help getting setup, see our getting started guide (once we write).
-
-
-# IMPORTANT!
-This is not Ludum Dare's event website! Sources for the event website are part of [Jammer Core](https://github.com/JammerCore/jammercore)
