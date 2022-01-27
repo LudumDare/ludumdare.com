@@ -3,7 +3,7 @@ These are the sources for Ludum Dare's informational website at `ludumdare.com`.
 
 * The `ludumdare.com` homepage
 * [The Rules](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/rules) for Ludum Dare events
-* [The Guide](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/best-practices), and other resoprces like [frequently asked questions](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq)
+* [The Guide](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/best-practices), and other resources like [frequently asked questions](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq)
 
 The website is run by [Mike](https://github.com/mikekasprzak) and the team at [Interactive Snacks](https://github.com/InteractiveSnacks). Contributions are welcome and encouraged.
 
