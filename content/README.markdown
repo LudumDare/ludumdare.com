@@ -7,7 +7,7 @@
   * [FAQ](resources/faq) - Frequently asked questions
 * [News](news) - News posts and press releases
 * [Privacy](privacy) - Privacy policy for this website
-* [Schedule](schedule) - Schedule
+* [Schedule](schedule) - The schedule of upcoming events
 * [Sponsors](sponsors) - Master list of sponsors
 * [Sponsor Us](sponsor-us) - How businesses can help us
 * [Support](support) - How to get help
