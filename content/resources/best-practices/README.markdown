@@ -1,3 +1,4 @@
+# Best Practices
 These (`index.md`) are the best practices for Ludum Dare events.
 
 This document exists to compliment [the rules](../rules/) with recommendations and general advice.
