@@ -18,7 +18,7 @@
 * [Community](community)
   * [Articles](community/articles) - May contain articles, if we find something that doesn't fit on [Jammer Academy](https://github.com/JammerAcademy)
   * [Authors](communty/authors) - Writers of articles
-  * [Games](community/games) - Commercialized games that started out in Ludum Dare
+  * [Games](community/games) - Commercialized games that started out in Ludum Dare (replaces the Steam Curator)
   * [Social](community/social)
   * [Videos](community/videos) - User contributed videos 
 
