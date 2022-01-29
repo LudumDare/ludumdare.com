@@ -1,0 +1,23 @@
++++
+title = "Topics"
+sort_by = "weight"
+template = "faq/section.html"
+page_template = "faq/page.html"
+
+aliases = [
+    "/resources/topic/",
+    "/topics/",
+    "/topic/",
+]
++++
+
+# Topics (Knowledge Base)
+This section is the knowledge base topics list. More information can be found in the [Frequently Asked Questions](/resources/questions/) section.
+
+To search, visit to the [support](/support/) page.
+
+To get started, see the [Rules](/resources/rules/) and [Best Practices](/resources/best-practices) guide.
+
+To contribute, visit the [project page](https://github.com/LudumDare/ludumdare.com) on GitHub.
+
+# Topics
