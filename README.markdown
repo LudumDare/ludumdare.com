@@ -3,22 +3,23 @@ These are the sources for Ludum Dare's informational website at `ludumdare.com`.
 
 * The `ludumdare.com` homepage
 * [The Rules](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/rules) for Ludum Dare events
-* [The Guide](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/best-practices), and other resources like [frequently asked questions](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq)
+* Our [Best Practices](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/best-practices) guide
+* [Frequently Asked Questions](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq)
 
 The website is run by [Mike](https://github.com/mikekasprzak) and the team at [Interactive Snacks](https://github.com/InteractiveSnacks). Contributions are welcome and encouraged.
 
-We will continue to expand the website, but at this time the focus is on the items listed above.
-
-`ludumdare.com` is powered by the [Zola](https://www.getzola.org) static website generator.
+`ludumdare.com` is powered by the [Zola](https://www.getzola.org) static website generator. See the editors guide (TODO) to get started.
 
 
 # IMPORTANT!
-This is not Ludum Dare's event website! Sources for the event website are part of [Jammer Core](https://github.com/JammerCore/jammercore)
+This is not Ludum Dare's event website (`ldjam.com`)! The event website is part of the [Jammer Core](https://github.com/JammerCore/JammerCore) project
 
 
 # How to contribute
-If you have a question for the FAQ, open an issue.
+Looking to explore? Start in the [/content](content/) folder.
 
-If you have an answer for the FAQ, fork the repository, [following the guide](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq), and submit a pull request.
+If you have a question for the FAQ, [open an issue](https://github.com/LudumDare/ludumdare.com/issues) on GitHub.
 
-If you need help getting setup, see our getting started guide (once we write).
+If you have an answer for the FAQ, fork the repository, [following the instructions](https://github.com/InteractiveSnacks/ludumdare.com/tree/master/content/resources/faq), and submit a pull request.
+
+We would also recommend checking out the editors guide (TODO).
