@@ -1,5 +1,5 @@
 # The Ludum Dare resources section
-The resources section collects information that is useful to participants of Ludum Dare events. This section is further broken down into the following subsections. 
+Resources collects articles that are useful to participants of Ludum Dare. This section is broken down into the following subsections. 
 
 * [Rules](rules) - The Rules for Ludum Dare events
 * [Best Practices](best-practices) - Non-rule recommendations for participants
@@ -11,7 +11,7 @@ The resources section collects information that is useful to participants of Lud
 
 
 # Knowledge Base Author's Guide
-To contribute an article, you should fork the `ludumdare.com` repository, and submit it as a pull request. See the editor's guide for how to get started (TODO).
+To contribute, fork the `ludumdare.com` repository, and submit a pull request. To get started, see the editor's guide (TODO).
 
 Alternatively, you can [open an issue](https://github.com/LudumDare/ludumdare.com/issues) on GitHub.
 
