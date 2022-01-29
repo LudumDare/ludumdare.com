@@ -1,18 +1,18 @@
 # /content/
 The heart of `ludumdare.com` is the content.
 
-Pages on `ludumdare.com` are written in Markdown, and are processed by the Zola static website generator.
+Pages on `ludumdare.com` are written in Markdown. See the editors guide (TODO) for more details.
 
 
 ## Resources
-As a contributor, you're most likely interested in the pages from the resources section. These includee:
+As a contributor, you're probably most interested in the resources section. These includee:
 
 * [Resources](resources) - the root
   * [Rules](resources/rules) - The Rules for Ludum Dare events
   * [Best Practices](resources/best-practices) - Non-rule recommendations for participants
   * [FAQ](resources/faq) - Frequently asked questions
 
-See the secton for more details.
+See sections for more details.
 
 
 ### Other sections
@@ -28,11 +28,11 @@ Some of the other sections include:
 * [Support](support) - How to get help
 * [Support Us](sponsor-us) - How anyone can help us
 
-Contributions are welcome, but generally these pages are managed by Mike and the Interactive Snacks team.
+Contributions are welcome, but generally these pages are managed by [Mike](https://github.com/mikekasprzak) and the [Interactive Snacks](https://github.com/InteractiveSnacks) team.
 
 
 ### The (upcoming) Community Section
-Once we've finished with the above, the next step is to invite contributions to the community section.
+Once we've finished above, the next step is to invite contributions to the community section.
 
 The community section showcases some of the best works and sides to the greater Ludum Dare community. You are invited to nominate by creating a pull request. See each section for guidelines.
 
@@ -45,4 +45,4 @@ Sections include:
 
 
 #### Articles and Authors?
-We're building a separate website for educational and related content, the [Jammer Academy](https://github.com/JammerAcademy). If you think or have a contribution that isn't suitable for the Academy or our resources section, let us know.
+We're building a separate website for educational and related content, the [Jammer Academy](https://github.com/JammerAcademy).
