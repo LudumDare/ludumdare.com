@@ -10,7 +10,8 @@ As a contributor, you're probably most interested in the resources section. Thes
 * [Resources](resources) - the root
   * [Rules](resources/rules) - The Rules for Ludum Dare events
   * [Best Practices](resources/best-practices) - Non-rule recommendations for participants
-  * [FAQ](resources/faq) - Frequently asked questions
+  * [Questions](resources/questions) - Frequently asked questions
+  * [Topics](resources/topics) - Knowledge base topics
 
 See sections for more details.
 
