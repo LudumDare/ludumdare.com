@@ -1,3 +1,4 @@
+# /content/
 The heart of `ludumdare.com` is the content.
 
 Pages on `ludumdare.com` are written in Markdown, and are processed by the Zola static website generator.
