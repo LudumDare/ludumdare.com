@@ -13,11 +13,11 @@ See sections for more details.
 
 
 # Knowledge Base Author's Guide
-To contribute an article (answers or topics), you should fork the `ludumdare.com` repository, and submit it as a pull request. See the editor's guide for how to get started (TODO).
+To contribute an article, you should fork the `ludumdare.com` repository, and submit it as a pull request. See the editor's guide for how to get started (TODO).
 
-Most knowledge base articles will be **Questions** (with answers). Questions should aim to be short and brief. Some questions may require explaining terms or concepts. For the times when linking Wikipedia just wont do, we have Topics.
+Most knowledge base articles will be **Questions** with answers. Questions and answers should aim to be short and brief. Some answers may require explaining terms or concepts. When linking Wikipedia wont do, create a topic.
 
-**Topics** are articles that expand on a topic in detail. Their role is similar to a wiki or encyclopedia. Topics should add value, such as calling out nuances specific to us, or by providing a summary where Wikipedia might be overwhelming.
+**Topics** are articles that expand on something in detail. Their role is similar to a wiki page. Topics should add value, such as calling out nuances specific to us, or by providing a summary where a Wikipedia page might be overwhelming.
 
 
 ## How to add articles
