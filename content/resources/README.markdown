@@ -5,7 +5,7 @@ The resources section collects information that is useful to participants of Lud
 * [Best Practices](best-practices) - Non-rule recommendations for participants
 * Knowledge Base
   * [Questions](questions) - Frequently asked questions
-  * [Topics](topics) - Further details on topics raised by questions, the Rules, and Best Practices
+  * [Topics](topics) - Further details on topics raised by questions, other topics, the Rules, and Best Practices
 
 **IMPORTANT**: The knowledge base should only contain articles about the Ludum Dare event and its websites. Articles on game jamming and making games should go elsewhere, such as the [Jammer Academy](https://github.com/JammerAcademy).
 
