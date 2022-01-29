@@ -1,6 +1,12 @@
-These templates describe how pages are generated. For example, the homepage is `index.html`, sections are `section.html`, and pages are `page.html`.
+These templates describe how pages are generated.
 
-`_index.md` files in the `/content/` folder define sections. Everything else is a page. Sections can override the default template files.
+* the homepage is `index.html`
+* sections are `section.html`
+* pages are `page.html`
+
+`_index.md` files in the `/content/` folder define sections. Everything else is a page.
+
+Sections can override the default template files.
 
 Taxonomies are how Zola implements tagging and associative metadata. Other metadata goes in the `[extra]` section.
 
