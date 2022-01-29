@@ -3,7 +3,7 @@ The resources section collects information that is useful to participants of Lud
 
 * [Rules](rules) - The Rules for Ludum Dare events
 * [Best Practices](best-practices) - Non-rule recommendations for participants
-* The Knowledge Base
+* Knowledge Base
   * [Questions](questions) - Frequently asked questions
   * [Topics](topics) - Further details on topics raised by questions, the Rules, and Best Practices
 
