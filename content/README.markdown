@@ -1,22 +1,31 @@
-The heart of `ludumdare.com` is the content.
+The heart of `ludumdare.com` is the content. Pages on `ludumdare.com` are written in Markdown, and are processed by the Zola static website generator.
 
-## The Resources section
-* [Resources](resources)
+
+## Resources
+As a contributor, you're most likely interested in the pages from the resources section. These includee:
+
+* [Resources](resources) - the root
   * [Rules](resources/rules) - The Rules for Ludum Dare events
   * [Best Practices](resources/best-practices) - Non-rule recommendations for participants
   * [FAQ](resources/faq) - Frequently asked questions
 
+See the secton for more details.
 
-### More active sections
-* [About](about)
-* [Resources](resources)
+
+### Other sections
+Some of the other sections include:
+
+* [About](about) - A more detailed introduction to Ludum Dare
+  * [History](about/history) - If the "about" page wasn't enough, here's more
 * [News](news) - News posts and press releases
-* [Schedule](schedule) - The schedule of upcoming events
-* [Privacy](privacy) - Privacy policy for this website
+* [Schedule](schedule) - Calendar and schedule of upcoming events
+* [Privacy](privacy) - Privacy policy for this website (the event website has a different policy)
 * [Sponsors](sponsors) - Master list of sponsors
 * [Sponsor Us](sponsor-us) - How businesses can help us
 * [Support](support) - How to get help
 * [Support Us](sponsor-us) - How anyone can help us
+
+Contributions are welcome, but generally these pages are managed by Mike and the Interactive Snacks team.
 
 
 ### The (upcoming) Community Section
@@ -26,10 +35,10 @@ The community section showcases some of the best works and sides to the greater 
 
 Sections include:
 
-* [Community](community)
+* [Community](community) - the root
   * [Games](community/games) - Commercialized games that started out in Ludum Dare (replaces the Steam Curator)
-  * [Social](community/social) - Might go with a different name, but this section collects the many communities that exist around Ludum Dare. Local meetups, chat groups, social medias platforms we don't officially support (Reddit), etc.
-  * [Videos](community/videos) - User contributed videos 
+  * [Social](community/social) - Might go with a different name, but this section collects the many communities that exist around Ludum Dare. Local meetups, chat groups, social media platforms we don't officially support (Reddit), etc.
+  * [Videos](community/videos) - User contributed videos like postmortems 
 
 
 #### Articles and Authors?
