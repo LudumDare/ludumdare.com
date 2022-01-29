@@ -7,17 +7,17 @@ The resources section collects information that is useful to participants of Lud
   * [Questions](questions) - Frequently asked questions
   * [Topics](topics) - Further details on topics raised by questions, the Rules, and Best Practices
 
-See sections for more details.
-
-**IMPORTANT**: The knowledge base should only contain articles about the Ludum Dare event and it's websites. Articles on game jamming and making games should go elsewhere, such as the [Jammer Academy](https://github.com/JammerAcademy).
+**IMPORTANT**: The knowledge base should only contain articles about the Ludum Dare event and its websites. Articles on game jamming and making games should go elsewhere, such as the [Jammer Academy](https://github.com/JammerAcademy).
 
 
 # Knowledge Base Author's Guide
 To contribute an article, you should fork the `ludumdare.com` repository, and submit it as a pull request. See the editor's guide for how to get started (TODO).
 
-Most knowledge base articles will be **Questions** with answers. Questions and answers should aim to be short and brief. Some answers may require explaining terms or concepts. When linking Wikipedia wont do, create a topic.
+Alternatively, you can [open an issue](https://github.com/LudumDare/ludumdare.com/issues) on GitHub.
 
-**Topics** are articles that expand on something in detail. Their role is similar to a wiki page. Topics should add value, such as calling out nuances specific to us, or by providing a summary where a Wikipedia page might be overwhelming.
+Most knowledge base articles will be **Questions** (with answers). Where possible they should be brief. Some answers may require explaining terms or concepts. Explain what's necessary, and link to a Wikipedia page for more details. When linking to a Wikipedia page wont do, create a topic.
+
+**Topics** are articles that expand on something in detail. Topics are our local encyclopedia. Topics should add value, such as calling out nuances specific to us, or by providing a summary where a Wikipedia page might be overwhelming.
 
 
 ## How to add articles
@@ -44,7 +44,7 @@ Articles are sorted by weight. Articles without a weight will not show up on the
 
 The `Categories` taxonomy let us categorize articles. You can include one or more categories each separated by commas. You can check [ludumdare.com/categories/](https://ludumdare.com/categories/) for a current list of categories. If you can't find an appropriate category, feel free to include a new one. Taxonomies automatically generate slugs (`Categories`->`categories`), so _do_ include capital letters and spaces where appropriate.
 
-Be sure to include a blank line between the 2nd `+++` and the article text (notice the space in the example above). This isn't required by Zola, but it makes `.md` files more readable on GitHub. Omitting the blank line merges everything into a single paragraph.
+Include a blank line between the 2nd `+++` and the article text (notice the space in the example above). This isn't required by Zola, but it makes `.md` files more readable on GitHub. Omitting the blank line merges everything into a single paragraph.
 
 
 ### Articles with assets
