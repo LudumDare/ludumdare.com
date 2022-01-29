@@ -1,12 +1,26 @@
-# Frequently Asked Questions and Knowledge Base authors guide
-**IMPORTANT**: The knowledge base should only contain articles and frequently asked questions about the Ludum Dare event and website(s). How to make games, how to use specific tools, those should be added to the [Jammer Academy](https://github.com/JammerAcademy) as articles or as part of their knowledge base.
+# The Ludum Dare resources section
+The resources section collects information that is useful to participants of Ludum Dare events. This section is further broken down into the following subsections. 
+
+* [Rules](rules) - The Rules for Ludum Dare events
+* [Best Practices](best-practices) - Non-rule recommendations for participants
+* The Knowledge Base
+  * [Questions](questions) - Frequently asked questions
+  * [Topics](topics) - Further details on topics raised by questions, the Rules, and Best Practices
+
+See sections for more details.
+
+**IMPORTANT**: The knowledge base should only contain articles about the Ludum Dare event and it's websites. Articles on game jamming and making games should go elsewhere, such as the [Jammer Academy](https://github.com/JammerAcademy).
 
 
-# Writer's Guide
-todo
+# Knowledge Base Author's Guide
+To contribute an article (answers or topics), you should fork the `ludumdare.com` repository, and submit it as a pull request. See the editor's guide for how to get started (TODO).
+
+Most knowledge base articles will be **Questions** (with answers). Questions should aim to be short and brief. Some questions may require explaining terms or concepts. For the times when linking Wikipedia just wont do, we have Topics.
+
+**Topics** are articles that expand on a topic in detail. Their role is similar to a wiki or encyclopedia. Topics should add value, such as calling out nuances specific to us, or by providing a summary where Wikipedia might be overwhelming.
 
 
-# How to add articles
+## How to add articles
 Create a new `.md` file in the `/content/resources/questions/` or `/content/resources/topics/` folder.
 
 File names should only contain lower case letters, numbers, and dashes. The article slug (URL) of the article will be the file name. For example, `how-to-upload.md` will get published at `ludumdare.com/resources/questions/how-to-upload/`.
@@ -39,3 +53,7 @@ If your article requires images or other files, create a folder instead.
 Follow the same naming rules for `.md` files (lower case letters, numbers, and dashes). Create an `index.md` file, and any files you require inside the folder.
 
 Check out [Derivative Works](topics/derivative-works/) for an example.
+
+
+## Additional advice
+Topics shouldn't be orphaned. Questions, other topics, the Rules, and the Best Practices guide should make reference to every topic somewhere.
