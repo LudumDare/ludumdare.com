@@ -4,4 +4,4 @@
 * [Best Practices](best-practices) - Non-rule recommendations for participants
 * [FAQ](faq) - Frequently asked questions
 
-See the secton for more details.
+See sections for more details.
