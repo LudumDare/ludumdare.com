@@ -5,7 +5,7 @@ Resources collects articles that are useful to participants of Ludum Dare. This 
 * [Best Practices](best-practices) - Non-rule recommendations for participants
 * Knowledge Base
   * [Questions](questions) - Frequently asked questions
-  * [Topics](topics) - Further details on topics raised by questions, other topics, the Rules, and Best Practices
+  * [Topics](topics) - Encyclopedia of topics raised by questions, other topics, the Rules, and Best Practices
 
 **IMPORTANT**: The knowledge base should only contain articles about the Ludum Dare event and its websites. Articles on game jamming and making games should go elsewhere, such as the [Jammer Academy](https://github.com/JammerAcademy).
 
