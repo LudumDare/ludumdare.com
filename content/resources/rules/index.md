@@ -1,6 +1,6 @@
 +++
 title = "The Rules"
-description = "Current rules for Ludum Dare game jam events"
+description = "Rules for Ludum Dare game jam events"
 updated = "2022-01-20"
 weight = 10
 aliases = [
@@ -9,23 +9,28 @@ aliases = [
 [taxonomies]
 Categories = ["Rules","Jam","Compo","Extra"]
 +++
-**Ludum Dare** is an online event where you to create a game _from scratch_ in a weekend.
 
-Each event has a theme. Themes are suggested by and voted on by the community. The chosen theme is revealed _at the start_.
+**Ludum Dare** is an online event where we challenge you to make a game _from scratch_. You can learn more about us [here](/about/).
+
+
+## Ludum Dare Event Overview
+**Ludum Dare** events take place over a single weekend<sup>[†](#the-extra-category)</sup>.
+
+Every event has a theme. Themes are suggested and voted on by the community. The chosen theme is revealed _at the start_.
 
 Depending on your preference, **Ludum Dare** events come in casual, competitive, and strict formats.
 
-To take part in **Ludum Dare**, you must create an account on our event website at [`ldjam.com`](https://ldjam.com). `ldjam.com` is used to suggest and vote on themes, to share work-in-progress blog posts, to rate and discover games, and finally to submit your game.
+To take part in **Ludum Dare**, you must create an account on the event website [`ldjam.com`](https://ldjam.com). We use `ldjam.com` for suggesting and voting on themes, for sharing work-in-progress blog posts, for rating and discovering games, and finally for submitting games.
 
-To get the most out of **Ludum Dare**, see the [best practices](/faq/best-practices/).
+To get the most out of **Ludum Dare**, we strongly recommend you read the [Best Practices](/resources/best-practices/), our companion to the rules.
 
 
-### Submitting Games
+## Submitting Games
 
 Games created for Ludum Dare are submitted to one of competitive categories: **Jam** and **Compo**, or our casual category: **Extra**.
 
 
-## The Jam category
+### The Jam category
 The **Jam** is the competitive category is for everyone. Teams, individuals, anyone looking to join us for traditional Ludum Dare experience.
 
 1.  You must work alone or in a team.
@@ -40,7 +45,7 @@ You're free to use 3rd party Artwork/Music/Audio assets, or assets you previousl
 We **strongly** recommend you **only** use assets that you have the legal right to use (Public Domain, things you licensed/created, etc). If you don't have the right to use something, it is **your** responsibility.
 
 
-## The Compo category
+### The Compo category
 The **Compo** is _classic_ category. Another way to think of it is as **Ludum Dare “Hard Mode”**. Compo games are created **entirely from scratch** by one person, in just 48 hours. This is the **ultimate** test of your game creation skills.
 
 1.  You **must** work alone (solo).
@@ -54,7 +59,7 @@ You're free to use **any** tools or libraries to create your game. You're free t
 TIP: **Compo** games are typically reviewed harsher than **Jam** games. If your game closely resembles a sample game that comes with a development tool, it probably wont get a good score. Be sure to fully customize, and make the game your own.
 
 
-## The Extra categary
+### The Extra category
 The **Extra** category is the _flexible_ category. It's most similar to the **Jam** category, but games don't have a fixed deadline. As a result, games submitted to the **Extra** category **are not** eligible for ratings.
 
 The **Extra** category exists for late games. If you were unable to finish in time, if you had a conflict, or you wish to try again, you can submit to the **Extra** category and still be part of the rating period.
@@ -64,7 +69,7 @@ NOTE: At this time we only support 1 game per user per event.
 For now, submissions for **Extra** category games close at the end of the rating period. In the future they will be allowed outside of the regular event schedule.
 
 
-## Non-Video Game Entries
+### Non-Video Game Entries
 Board and Card game entries are allowed, but understand that they're difficult to play (you often need a 2nd player). Games that are hard to play have a hard time getting ratings.
 
 The ideal Ludum Dare game can be played right in the browser, in a few minutes, alone.
