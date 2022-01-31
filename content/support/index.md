@@ -1,10 +1,11 @@
 +++
-title = "Support"
+title = "Help"
 in_search_index = false
 draft = true
 
 aliases = [
-    "/contact/"
+    "/support/",
+    "/contact/",
 ]
 +++
 
