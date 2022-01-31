@@ -5,3 +5,10 @@
     font-display: swap;
     src: url(/fonts/urbanist/Urbanist-Thin.woff2) format('woff2');
 }
+@font-face {
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(/fonts/urbanist/Urbanist-Light.woff2) format('woff2');
+}
