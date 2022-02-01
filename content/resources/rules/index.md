@@ -16,29 +16,31 @@ toc = true
 
 
 ## Ludum Dare Event Overview
-**Ludum Dare** events take place over a single weekend<sup>[†](#casual-extra)</sup>.
+**Ludum Dare** events take place over a weekend<sup>[†](#casual-format-extra)</sup>.
 
 Every event has a theme. Themes are suggested and voted on by the community. The chosen theme is revealed _at the start_.
 
-Depending on your preference, **Ludum Dare** events come in casual, competitive, and strict formats.
+Build a game and submit by the deadline.
 
-To take part in **Ludum Dare**, you must create an account on the event website [`ldjam.com`](https://ldjam.com). We use `ldjam.com` for suggesting and voting on themes, for sharing work-in-progress blog posts, for rating and discovering games, and finally for submitting games.
+After **Ludum Dare** weekend, participants play each-others games, give feedback, and give ratings.
 
-To get the most out of **Ludum Dare**, we strongly recommend you read the [Best Practices](/resources/best-practices/) guide, our companion to the rules.
+At the end of the rating period, we tally scores, and announce winners.
+
+> To get the most out of **Ludum Dare**, we strongly recommend you read the [Best Practices](/resources/best-practices/) guide, our companion to the rules.
 
 
 ## Choosing a Ludum Dare format
-To participate, you need to choose one of Ludum Dare's 3 formats.
+Depending on your preference, **Ludum Dare** events come in 3 different formats.
 
-* [Competitive](#competitive-the-jam), AKA the Jam
-* [Strict](#strict-the-compo), AKA the Compo
-* [Casual](#casual-extra), AKA Extra
+* [Competitive](#competitive-format-the-jam) (The Jam)
+* [Strict](#strict-format-the-compo) (The Compo)
+* [Casual](#casual-format-extra) (Extra)
 
-All formats start at the same time, but ends at different times.
+All formats start at the same time, but have different deadlines.
 
 
-### Competitive: The Jam
-The **Jam** is the competitive category is for everyone. Teams, individuals, anyone looking to join us. If you can't decide where to start, start with the Jam.
+### Competitive format: **The Jam**
+Ludum Dare's competitive format, also known as the **Jam**, is our format for everyone. Teams, individuals, anyone looking to take part. If you can't decide where to start, start with the Jam.
 
 1.  You can work alone or in a team.
 2.  You must create your game in **72 hours** from the theme announcement.
@@ -52,7 +54,7 @@ You're free to use 3rd party Artwork/Music/Audio assets, or assets you previousl
 We **strongly** recommend you **only** use assets that you have the legal right to use (Public Domain, things you licensed/created, etc). If you don't have the right to use something, it is **your** responsibility.
 
 
-### Strict: The Compo
+### Strict format: **The Compo**
 The **Compo** is _classic_ category. Another way to think of it is as **Ludum Dare “Hard Mode”**. Compo games are created **entirely from scratch** by one person, in just 48 hours. This is the **ultimate** test of your game creation skills.
 
 1.  You **must** work alone (solo).
@@ -66,7 +68,7 @@ You're free to use **any** tools or libraries to create your game. You're free t
 TIP: **Compo** games are typically reviewed harsher than **Jam** games. If your game closely resembles a sample game that comes with a development tool, it probably wont get a good score. Be sure to fully customize, and make the game your own.
 
 
-### Casual: Extra
+### Casual format: **Extra**
 The **Extra** category is the _flexible_ category. It's most similar to the **Jam** category, but games don't have a fixed deadline. As a result, games submitted to the **Extra** category **are not** eligible for ratings.
 
 The **Extra** category exists for late games. If you were unable to finish in time, if you had a conflict, or you wish to try again, you can submit to the **Extra** category and still be part of the rating period.
@@ -175,3 +177,8 @@ Previous editions of the rules can be found here:
 * [2017 Edition](/rules/2017/)
 
 In addition, you can check out the roadmap for changes under consideration [here](/roadmap).
+
+
+
+
+To take part in **Ludum Dare**, you must create an account on the event website [`ldjam.com`](https://ldjam.com). We use `ldjam.com` for suggesting and voting on themes, for sharing work-in-progress blog posts, for rating and discovering games, and finally for submitting games.

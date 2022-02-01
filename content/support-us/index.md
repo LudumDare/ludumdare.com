@@ -13,10 +13,12 @@ Alternatively, helping answer questions posted to [ldjam.com](https://ldjam.com)
 
 
 ## I want to support you financially
-You can support Mike directly as follows.
+You can support Mike directly.
 
 * **Patreon** (monthly): [patreon.com/mikekasprzak](https://patreon.com/mikekasprzak)
 * **Paypal** (one time): [paypal.me/mikekasprzak](https://www.paypal.me/mikekasprzak/0usd)
+
+
 
 
 ## I want to sponsor Ludum Dare
