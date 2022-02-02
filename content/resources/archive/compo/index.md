@@ -1,5 +1,6 @@
 +++
 title = "ludumdare.com/compo data is offline"
+weight = 1000
 
 aliases = [
 	"/compo/"
