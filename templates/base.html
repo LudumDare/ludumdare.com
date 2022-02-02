@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <link href="/favicon.ico" rel="icon">
-  <link href="/style.css?version={{get_file_hash(path='/style.css', sha_type=256)}}" rel="stylesheet">
-  <link href="/fonts/urbanist.css?version={{get_file_hash(path='/fonts/urbanist.css', sha_type=256)}}" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+  <link href="/fonts/urbanist.css" rel="stylesheet">
+  {#<link href="/style.css?version={{get_file_hash(path='/style.css', sha_type=256)}}" rel="stylesheet">#]
+  {#<link href="/fonts/urbanist.css?version={{get_file_hash(path='/fonts/urbanist.css', sha_type=256)}}" rel="stylesheet">#}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
