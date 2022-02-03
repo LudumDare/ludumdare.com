@@ -2,6 +2,7 @@
 title = "The Rules"
 description = "Rules for Ludum Dare game jam events"
 updated = "2022-02-01"
+draft = true
 weight = 10
 aliases = [
     "/rules/"
