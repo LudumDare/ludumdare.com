@@ -1,0 +1,48 @@
+{% extends "page.html" %}
+
+{% block content %}
+{{ super() }}
+{# DO NOT USE THIS #}
+{% if page.extra.rewrite %}
+<script>
+{#/* https://github.com/janl/mustache.js/blob/master/mustache.js#L73 */#}
+var entityMap = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&#39;',
+  '/': '&#x2F;',
+  '`': '&#x60;',
+  '=': '&#x3D;'
+};
+
+function escapeHtml (string) {
+  return String(string).replace(/[&<>"'`=\/]/g, function fromEntityMap (s) {
+    return entityMap[s];
+  });
+}
+
+{#/* Assume the input we get from Zola is safe */#}
+let rewrite = {{page.extra.rewrite | safe}};
+let url = new URL(document.location);
+
+let articles = document.getElementsByTagName("article");
+
+{#/* articles is an HTMLCollection, not an array. for-in wont work as expected */#}
+for ( let idx = 0; idx < articles.length; ++idx ) {
+    let article = articles.item(idx);
+
+    for ( let key in rewrite ) {
+        {#/* Get the argument and sanitize it */#}
+        let value = escapeHtml(url.searchParams.get(rewrite[key]));
+
+        if ( value !== null ) {
+            let regex = new RegExp(key, 'g');
+            article.innerHTML = article.innerHTML.replace(regex, value);
+        }
+    }
+}
+</script>
+{% endif %}
+{% endblock content %}
