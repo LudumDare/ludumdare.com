@@ -5,7 +5,9 @@ weight = 100
 Categories = ["History"]
 +++
 
-In 2009, inspired by Apple's keynotes, Mike Hommel put together a video, a silly take on Ludum Dare's history. The following year Phil Hassey and Mike Kasprzak created videos. Since then we started asking members of the community to "keynote" the events. Most keynotes are videos, though we have had some interactive keynotes.
+In 2009, inspired by Apple's keynotes, Mike Hommel put together a silly video, a take on Ludum Dare's history. The following year Phil Hassey and Mike Kasprzak continued the tradition creating their own videos. Since then, it had become tradition to bring on members of the community to "keynote" events. 
+
+Though most keynotes are videos, we have had some interactive keynotes (noted below).
 
 A YouTube playlist of Ludum Dare keynotes can be found [here](https://www.youtube.com/playlist?list=PLR6JP4o7aTY8gqBd0eeN7wr4u-6_zy_Ny).
 
@@ -18,7 +20,7 @@ A YouTube playlist of Ludum Dare keynotes can be found [here](https://www.youtub
 * Ludum Dare 20 &mdash; 2011 &mdash; [Sos Sosowski](https://www.youtube.com/watch?v=ez59GtnxWtA) ([Sos](https://ldjam.com/users/sos))
 * Ludum Dare 21 &mdash; 2011 &mdash; [Christer Kaitila](https://www.youtube.com/watch?v=aHD1QBP4ww8) ([mcfunkypants](https://ldjam.com/users/mcfunkypants))
 * Ludum Dare 22 &mdash; 2011 &mdash; fydo<!--https://www.youtube.com/watch?v=ik88RpVfvYY--> ([fydo](https://ldjam.com/users/fydo))
-* Ludum Dare 23 &mdash; 2012 &mdash; Chevy Ray Johnston &mdash; Interactive keynote made in Adobe Flash
+* Ludum Dare 23 &mdash; 2012 &mdash; Chevy Ray Johnston &mdash; Interactive keynote made in Adobe Flash (TODO: create a "lets play")
 * Ludum Dare 24 &mdash; 2012 &mdash; [Seth A. Robinson](https://www.youtube.com/watch?v=v1ByVqh0jrU) ([SethR](https://ldjam.com/users/sethr))
 * Ludum Dare 25 &mdash; 2012 &mdash; [Richard Perrin](https://www.youtube.com/watch?v=e1LVakqPJXE) ([perrin](https://ldjam.com/users/perrin))
 * Ludum Dare 26 &mdash; 2013 &mdash; [Benn Powell](https://www.youtube.com/watch?v=Dtu-tStT75Q) ([Benn](https://ldjam.com/users/benn))
@@ -30,10 +32,10 @@ A YouTube playlist of Ludum Dare keynotes can be found [here](https://www.youtub
 * Ludum Dare 32 &mdash; 2015 &mdash; [Jari Komppa](https://www.youtube.com/watch?v=vPneI5IYwnc) ([Sol_HSA](https://ldjam.com/users/sol-hsa))
 * Ludum Dare 33 &mdash; 2015 &mdash; [Rat King Entertainment](https://www.youtube.com/watch?v=XVrgCgtKobI)
 * Ludum Dare 34 &mdash; 2015 &mdash; [Lena LeRay](https://www.youtube.com/watch?v=8rLma_1RPU8) ([Crowbeak](https://ldjam.com/users/crowbeak))
-* Ludum Dare 35 &mdash; 2016 &mdash; [Gary Napper, ](https://www.youtube.com/watch?v=mFef1bOn4EI)
+* Ludum Dare 35 &mdash; 2016 &mdash; [Gary Napper, Catherine Woolley](https://www.youtube.com/watch?v=mFef1bOn4EI)
 * Ludum Dare 36 &mdash; 2016 &mdash; [Christer Kaitila](https://www.youtube.com/watch?v=u3R70NlGvKk) ([mcfunkypants](https://ldjam.com/users/mcfunkypants))
 * Ludum Dare 37 &mdash; 2016 &mdash; [Sheepolution](https://www.youtube.com/watch?v=dOcstOra19w) ([Sheepolution](https://ldjam.com/users/sheepolution))
-* Ludum Dare 38 &mdash; 2017 &mdash; [Marcel Baarsch](https://www.youtube.com/watch?v=Hrkv31Lep9s) &mdash; Various interviews from the Game Developer's Conference 2017
+* Ludum Dare 38 &mdash; 2017 &mdash; [Marcel Baarsch](https://www.youtube.com/watch?v=Hrkv31Lep9s) &mdash; Includes interviews from the Game Developer's Conference in 2017
 * Ludum Dare 39 &mdash; 2017 &mdash; [Noah Ratcliff](https://www.youtube.com/watch?v=pfDYFXjKlvw)
 * Ludum Dare 40 &mdash; 2017 &mdash; [Alex Rose](https://www.youtube.com/watch?v=C1fCL3sFfAw) ([alexrose](https://ldjam.com/users/alexrose))
 * Ludum Dare 41 &mdash; 2018 &mdash; [Pixel Prophecy](https://www.youtube.com/watch?v=TjuZvDYqcRs)
@@ -45,6 +47,6 @@ A YouTube playlist of Ludum Dare keynotes can be found [here](https://www.youtub
 * Ludum Dare 47 &mdash; 2020 &mdash; [Snowdrama](https://www.youtube.com/watch?v=iJNnETTeFVM) ([Snowdrama](https://ldjam.com/users/snowdrama))
 * Ludum Dare 48 &mdash; 2021 &mdash; [Mike Kasprzak](https://www.youtube.com/watch?v=GaTZP0buvXQ) ([pov](https://ldjam.com/users/pov))
 * Ludum Dare 49 &mdash; 2021 &mdash; [Jupiter Hadley](https://www.youtube.com/watch?v=M_IFDFYr3Dc) ([Jupiter_Hadley](https://ldjam.com/users/jupiter-hadley))
-* Ludum Dare 50 &mdash; 2022 &mdash; Mike Kasprzak, and everyone above
+* Ludum Dare 50 &mdash; 2022 &mdash; Mike Kasprzak, plus guests
 
 Any errors or omissions? You can find this page's source [on GitHub](https://github.com/LudumDare/ludumdare.com/blob/master/content/resources/questions/who-keynoted-ludum-dare.md).
