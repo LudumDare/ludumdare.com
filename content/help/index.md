@@ -1,7 +1,6 @@
 +++
 title = "Help"
 in_search_index = false
-draft = true
 
 aliases = [
     "/support/",
@@ -9,10 +8,11 @@ aliases = [
 ]
 +++
 
-Basically rehash other sections here.
+TODO: Add a searchbox
 
-Resources.
-
-FAQ
+* [Rules](/resources/rules)
+* [Guides](/resources/guides)
+* [Questions](/resources/questions)
+* [Topics](/resources/topics)
 
 Contact

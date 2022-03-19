@@ -14,12 +14,12 @@ aliases = [
 +++
 
 # Frequently Asked Questions
-This section is the questions list. More information can be found in the [Topics](/resources/topics/) section.
+This section is the complete questions list. More information can be found in the [Topics](/resources/topics/) section.
 
-To search, visit to the [support](/support/) page.
+To search, visit to the [help](/help/) page.
 
 To get started, see the [Rules](/resources/rules/) and [Best Practices](/resources/best-practices) guide.
 
-To add a question or contribute an answer, visit the [project page](https://github.com/LudumDare/ludumdare.com) on GitHub.
+To ask or contribute a question, visit the [project page](https://github.com/LudumDare/ludumdare.com) on GitHub.
 
 # Questions
