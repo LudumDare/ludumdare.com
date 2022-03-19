@@ -3,6 +3,12 @@ title = "Who has keynoted Ludum Dare?"
 weight = 100
 [taxonomies]
 Categories = ["History"]
+[extra]
+references = [
+    "/resources/questions/what-is-a-keynote/",
+#    "/resources/questions/how-can-i-keynote/",
+    "/resources/questions/what-is-a-shadow-keynote/"
+]
 +++
 
 The official list of keynotes can be found below. A YouTube playlist of can be [found here](https://www.youtube.com/playlist?list=PLR6JP4o7aTY8gqBd0eeN7wr4u-6_zy_Ny).
@@ -54,5 +60,6 @@ The official list of keynotes can be found below. A YouTube playlist of can be [
 <!--Any errors or omissions? You can find this page's source [on GitHub](https://github.com/LudumDare/ludumdare.com/blob/master/content/resources/questions/who-keynoted-ludum-dare.md).-->
 
 #### See also:
-* How do I volunteer to keynote?
+* [What is a keynote?](/resources/questions/what-is-a-keynote/)
+* How can I keynote?
 * [What is a shadow keynote?](/resources/questions/what-is-a-shadow-keynote/)

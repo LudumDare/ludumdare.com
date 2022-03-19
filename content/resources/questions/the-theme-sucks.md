@@ -5,7 +5,7 @@ weight = 100
 Categories = ["Rules"]
 +++
 
-That's not a question.
+That is not a question.
 
 
 #### See also:

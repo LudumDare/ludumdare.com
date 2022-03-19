@@ -5,7 +5,9 @@ weight = 100
 Categories = ["Rules"]
 +++
 
-Ludum Dare provides a theme to help with the "blank canvas" problem. While we would love to reference a study (let us know if you find one), it has been our experience that making something is easier _with_ direction then without.
+Ludum Dare provides a theme to help with the "blank canvas" problem. The idea is that it's easier to create something with some guidance then no guidance.
+
+If you don't like the theme, [don't use it](/resources/questions/is-the-theme-required/).
 
 #### See also:
 * [Is the theme required?](/resources/questions/is-the-theme-required/)
