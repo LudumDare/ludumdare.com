@@ -1,16 +1,3 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
+{% extends "page.html" %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
-{% block title %}{{page.title}} | {{super()}}{% endblock title %}
-
-{% block content %}
-<article>
-    <h4><a href="..">Frequently Asked Questions</a></h4>
-    {% if not page.extra.no_title %}
-        <h1>{{page.title}}</h1>
-        {% if page.updated %}<sub>Last updated: {{page.updated | date(format="%B %e, %Y")}}</sub>{% endif %}
-    {% endif %}
-    {{page.content | safe}}
-</article>
-{% endblock content %}
+{% block content_header %}<h4><a href="..">Frequently Asked Questions</a></h4>{% endblock content_header %}

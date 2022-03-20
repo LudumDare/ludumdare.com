@@ -7,5 +7,3 @@ aliases = [
     "/guides/"
 ]
 +++
-
-# Guides

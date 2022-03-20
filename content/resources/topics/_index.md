@@ -1,5 +1,5 @@
 +++
-title = "Topics"
+title = "Topics (Knowledge Base)"
 sort_by = "weight"
 template = "faq/section.html"
 page_template = "faq/page.html"
@@ -11,7 +11,6 @@ aliases = [
 ]
 +++
 
-# Topics (Knowledge Base)
 This section is the knowledge base topics list. More information can be found in the [Frequently Asked Questions](/resources/questions/) section.
 
 To search, visit to the [support](/support/) page.

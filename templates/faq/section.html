@@ -1,17 +1,1 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
-
-{% block header %}{{nav::bar()}}{% endblock header %}
-{% block title %}{{section.title}} | {{super()}}{% endblock title %}
-
-{% block content %}
-<article>
-    {{section.content | safe}}
-
-    <ul>
-    {% for page in section.pages %}
-        <li><a href="{{page.path}}">{{page.title}}</a></li>
-    {% endfor %}
-    </ul>
-</article>
-{% endblock content %}
+{% extends "section.html" %}

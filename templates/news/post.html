@@ -1,9 +1,4 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
-
-{% block header %}{{nav::bar()}}{% endblock header %}
-
-{% block title %}{{ page.title }} | {{ super() }}{% endblock title %}
+{% extends "page.html" %}
 
 {% block content %}
 <article class="press news">

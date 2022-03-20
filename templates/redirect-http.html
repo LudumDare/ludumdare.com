@@ -1,0 +1,6 @@
+{# redirects to https if on ludumdare.com #}
+<script>
+    if ((location.protocol !== 'https:') && (location.host.toLowerCase() == "ludumdare.com")) {
+        location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    }
+</script>

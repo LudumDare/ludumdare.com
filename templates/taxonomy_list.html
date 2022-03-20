@@ -1,17 +1,16 @@
 {% extends "base.html" %}
-{% import "_nav.html" as nav %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
 {% block title %}{{taxonomy.name}} | {{super()}}{% endblock title %}
 
 {% block content %}
 <article>
+    {% block content_header %}{% endblock content_header %}
     <h1>{{taxonomy.name}}</h1>
-
     <ul>
-    {% for term in terms %}
+        {% for term in terms %}
         <li><a href="{{term.permalink}}">{{term.name}}</a></li>
-    {% endfor %}
+        {% endfor %}
     </ul>
+    {% block content_footer %}{% endblock content_footer %}
 </article>
 {% endblock content %}

@@ -1,8 +1,8 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
+{% extends "taxonomy_single.html" %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
-{% block title %}{{taxonomy.name}}: {{term.name}} | {{super()}}{% endblock title %}
+{% block content_header %}
+<h1><a href="..">{{taxonomy.name}}</a>: {{term.name}}</h1>
+{% endblock content_header %}
 
 {% block content %}
 <article>

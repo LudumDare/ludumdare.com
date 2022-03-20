@@ -47,7 +47,7 @@ body article {
         }
     }
 
-    a[href^="http"] {
+    a[href^="http"]:not([href^="https://ludumdare.com"]):not([href^="http://127.0.0.1:1111"]) {
         &:after {
             content: "EXT";
             font-size: 0.5em;
@@ -62,17 +62,17 @@ body article {
         }
 
         /* YouTube */
-        &[href^="https://youtube.com/"],
-        &[href^="https://www.youtube.com/"] {
+        &[href^="https://youtube.com"],
+        &[href^="https://www.youtube.com"] {
             &:after {
                 content: "YT";
             }
         }
 
         /* GitHub */
-        &[href^="https://github.com/"],
-        &[href^="https://www.github.com/"],
-        &[href^="https://github.io/"] {
+        &[href^="https://github.com"],
+        &[href^="https://www.github.com"],
+        &[href^="https://github.io"] {
             &:after {
                 content: "GIT";
             }
@@ -86,86 +86,45 @@ body article {
         }
 
         /* Wikipedia */
-        &[href^="https://en.wikipedia.org/"] {
+        &[href^="https://en.wikipedia.org"] {
             &:after {
                 content: "WIKI";
             }
         }
 
-        /* Ludum Dare Users */
-        /*&[href^="https://jam.ludumdare.com/users/"],*/
-        &[href^="https://ldjam.com/users/"] {
-            /*color: white;
-            background: #BBB;
-            padding: 0.125em 0.25em;*/
-
-            border-radius: 1em;
-
-            font-size: 0.75em;
-            vertical-align: 0.125em;
-
-            color: #666;
-            padding: 0.125em 0.5em;
-            border: 1px solid;
-
-            &:before {
-                content: "@";
-            }
-            &:after {
-                display: none;
-            }
-
-            &:hover {
-                color: white;
-                background: #ed573a;
-                border: 1px solid #ed573a;
-                text-decoration: none;
-            }
-        }
-
-        &[href^="https://ldjam.com/events/"] {
+        /* Ludum Dare */
+        &[href^="https://ldjam.com"] {
             &:after {
                 content: "LD";
             }
-        }
 
-    }
+            &[href^="https://ldjam.com/users/"] {
 
-    /*
-    a[href^="https://youtube.com/watch"],
-    a[href^="https://www.youtube.com/watch"] {
-        &:before {
-            content: "";
-            background-image: url("/icons/youtube.svg");
-            background-size: 1em 1em;
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            margin-right: 0.25em;
-        }
+                border-radius: 1em;
 
-        &:hover {
-            background: #ed573a;
-        }
-    }
-    */
+                font-size: 0.75em;
+                vertical-align: 0.125em;
 
-    /*
-    a[href^="https://ldjam.com"],
-    a[href^="https://jam.ludumdare.com"] {
-        &:after {
-            content: "LD";
-            font-size: 0.5em;
-            margin-left: 0.25em;
-            padding: 0 0.25em;
-            vertical-align: super;
+                color: #666;
+                padding: 0.125em 0.5em;
+                border: 1px solid;
 
-            color: white;
-            background: #CCC;
-            border-radius: 0.25em;
+                &:before {
+                    content: "@";
+                }
+                &:after {
+                    display: none;
+                }
+
+                &:hover {
+                    color: white;
+                    background: #ed573a;
+                    border: 1px solid #ed573a;
+                    text-decoration: none;
+                }
+            }
         }
     }
-    */
 
     @media (max-width: $min_width) {
         width: 90%;

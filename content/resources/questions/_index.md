@@ -13,7 +13,6 @@ aliases = [
 ]
 +++
 
-# Frequently Asked Questions
 This section is the complete questions list. More information can be found in the [Topics](/resources/topics/) section.
 
 To search, visit to the [help](/help/) page.

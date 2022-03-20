@@ -1,15 +1,17 @@
 {% extends "base.html" %}
-{% import "_nav.html" as nav %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
 {% block title %}{{page.title}} | {{super()}}{% endblock title %}
 
 {% block content %}
 <article>
+    {% block content_header %}{% endblock content_header %}
     {% if not page.extra.no_title %}
         <h1>{{page.title}}</h1>
-        {% if page.updated %}<sub>Updated: {{page.updated | date(format="%B %e, %Y")}}</sub><br>{% endif %}
+        {% if page.updated %}
+        <sub>Updated: {{page.updated | date(format="%B %e, %Y")}}</sub>
+        {% endif %}
     {% endif %}
     {{page.content | safe}}
+    {% block content_footer %}{% endblock content_footer %}
 </article>
 {% endblock content %}

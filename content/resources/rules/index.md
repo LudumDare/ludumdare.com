@@ -17,7 +17,7 @@ toc = true
 
 
 ## Ludum Dare Event Overview
-**Ludum Dare** events take place over a weekend<sup>[†](#casual-format-extra)</sup>.
+**Ludum Dare** events take place over a weekend<sup>[†](.#casual-format-extra)</sup>.
 
 Every event has a theme. Themes are suggested and voted on by the community. The chosen theme is revealed _at the start_.
 

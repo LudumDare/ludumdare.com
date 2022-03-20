@@ -1,17 +1,13 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
+{% extends "section.html" %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
+{# Weirdly, I thought this worked #}
+{% block content_item %}{{page.date}}: <a href="{{page.path}}">{{page.title}}</a>{% endblock content_item %}
 
-{% block title %}{{ section.title }} | {{ super() }}{% endblock title %}
+{% block content_body %}
+<ul>
+    {% for page in section.pages %}
+    <li>{{page.date}}: <a href="{{page.path}}">{{page.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endblock content_body %}
 
-{% block content %}
-NEWS
-
-
-{% for var in section.pages %}
-<h2>VAR: <a href="{{var.path}}">{{ var.title }}</a></h2>
-{% endfor %}
-
-
-{% endblock content %}

@@ -1,22 +1,17 @@
-{% extends "base.html" %}
-{% import "_nav.html" as nav %}
+{% extends "page.html" %}
 
-{% block header %}{{nav::bar()}}{% endblock header %}
-
-{% block title %}{{ page.title }} | {{ super() }}{% endblock title %}
-
-{% block content %}
+{% block content_header %}
 {% if page.extra.video %}
 <video width="853" height="480" controls>
     <source src="{{ page.extra.video }}" type="video/mp4">
 </video>
 {% endif %}
+{% endblock content_header %}
 
-# GAME
-{{ page.content | safe }}
-
-{% for platform in page.taxonomies.platform %}
-  <h1>{{ platform }}</h1>
-{% endfor %}
-
-{% endblock content %}
+{% block content_footer %}
+<ul>
+    {% for platform in page.taxonomies.platform %}
+    <li>{{platform}}</li>
+    {% endfor %}
+</ul>
+{% endblock content_footer %}

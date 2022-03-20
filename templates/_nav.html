@@ -7,11 +7,15 @@
         </div>
         {% endif %}
         <div class="right">
-            <a href="/#schedule">SCHEDULE</a>
+            {% if logo %}
             <a href="/resources/rules/">RULES</a>
             <a href="/help/">HELP</a>
-            <a href="https://ldjam.com#user-login">LOG IN</a>
-            {#
+            {% else %}
+            <a href="/#schedule">SCHEDULE</a>
+            <a href="/help/">HELP</a>
+            <a href="https://ldjam.com#user-login">LOG IN</a>           
+            {% endif %}
+            {#<!--
             <input type="checkbox" id="menu-toggle" />
             <label class='menu-button-container' for="menu-toggle">
                 <a class="menu-button-container"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>menu</title><path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path></svg></a>
@@ -25,8 +29,8 @@
                 <a href="/#news">NEWS</a>
                 <a href="/#about">ABOUT</a>
                 <a href="/#games">FEATURED GAMES</a>
-            #}
+            -->#}
         </div>
-</div>
+    </div>
 </nav>
 {% endmacro bar %}
