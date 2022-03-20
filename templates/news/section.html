@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% import "_header.html" as header %}
+{% import "_nav.html" as nav %}
 
-{% block header %}<section>{{ header::nav() }}</section>{% endblock header %}
+{% block header %}{{nav::bar()}}{% endblock header %}
 
 {% block title %}{{ section.title }} | {{ super() }}{% endblock title %}
 
