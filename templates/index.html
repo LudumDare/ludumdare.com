@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% import "_macros.html" as macros %}
+{% import "_header.html" as header %}
 
 {% block header %}
 <section class="hero">
-    {{ macros::nav(logo=false) }}
+    {{ header::nav(logo=false) }}
     <div>
         <img src="ldlogo.svg" alt="Ludum Dare">
         <span>The original game jam for everyone</span>

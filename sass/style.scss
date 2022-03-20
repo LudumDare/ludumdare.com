@@ -297,6 +297,13 @@ body {
 				}
 			}
 
+			/* Wikipedia */
+			&[href^="https://en.wikipedia.org/"] {
+				&:after {
+					content: "WIKI";
+				}
+			}
+
 			/* Ludum Dare Users */
 			/*&[href^="https://jam.ludumdare.com/users/"],*/
 			&[href^="https://ldjam.com/users/"] {

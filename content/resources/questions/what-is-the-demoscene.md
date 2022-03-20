@@ -10,7 +10,7 @@ Categories = ["History"]
 
 The Demoscene is a computer art subculture focused on creating "demos": non-interactive audiovisual computer programs.
 
-Demoscene events or "parties" often run one or more competitive events or "compos". Typically these are "demo compos", but they may also include ["game compos"](/resources/questions/what-is-a-game-compo) or "wild compos".
+Demoscene events or "parties" often run one or more competitive events or ["compos"](/resources/questions/what-is-a-game-compo). Typically these are "demo compos", but they may also include ["game compos"](/resources/questions/what-is-a-game-compo), or "wild compos".
 
 <https://en.wikipedia.org/wiki/Demoscene>
 
