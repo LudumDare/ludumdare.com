@@ -309,7 +309,7 @@ body {
 				font-size: 0.75em;
 				vertical-align: 0.125em;
 
-				color: #888;
+				color: #666;
 				padding: 0.125em 0.5em;
 				border: 1px solid;
 
@@ -327,8 +327,14 @@ body {
 					text-decoration: none;
 				}
 			}
-		}
 
+			&[href^="https://ldjam.com/events/"] {
+				&:after {
+					content: "LD";
+				}
+			}
+
+		}
 
 		/*
 		a[href^="https://youtube.com/watch"],
