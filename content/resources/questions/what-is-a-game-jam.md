@@ -9,19 +9,19 @@ aliases = [
 Categories = ["History"]
 +++
 
-A "game jam" is an event where games are made, similar to a [hackathon](https://en.wikipedia.org/wiki/Hackathon) or Demoscene [compo](/resources/questions/what-is-a-compo). The term comes from the [Indie Game Jam](/resources/questions/what-is-the-indie-game-jam).
+A "game jam" is an event where games are made, similar to a [hackathon](https://en.wikipedia.org/wiki/Hackathon) or [demo compo](/resources/questions/what-is-the-demoscene). The term comes from the [Indie Game Jam](/resources/questions/what-is-the-indie-game-jam).
 
-Game jam events are often short, lasting days or a week. Some are as short as an hour or as long as a month. 
+Game jam events are often short. Most last a few days to a week. Others last hours, or up to a month. 
 
-Historically, "game jam" was used to describe casual game creation events, similar to a jam session for musicians. Ludum Dare originally referred to itself as a [game compo](/resources/questions/what-is-a-compo) to highlight that it was a competitive event.
+Historically, "game jam" was used to describe casual game creation events, like to a jam session for musicians. Ludum Dare originally referred to itself as a [game compo](/resources/questions/what-is-a-compo) to highlight that it was a competitive event.
 
 <https://en.wikipedia.org/wiki/Game_jam>
 
 
 ## What is a competitive game jam?
-A "competitive game jam" is a [game jam](/resources/questions/what-is-a-game-jam) with a competitive component. Competitive game jams have one or more winners.
+A "competitive game jam" is a [game jam](/resources/questions/what-is-a-game-jam) with a competitive component. Competitive game jams have winners.
 
-A ["game compo"](/resources/questions/what-is-a-compo) is another name for a competitive game jam.
+A ["game compo"](/resources/questions/what-is-a-compo) is less common name for a competitive game jam.
 
 
 ## Ludum Dare

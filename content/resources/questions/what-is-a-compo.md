@@ -9,18 +9,16 @@ aliases = [
 Categories = ["History"]
 +++
 
-"Compo" is a [Demoscene](/resources/questions/what-is-the-demoscene/) term used to describe a competitive event format.
+"Compo" is a [Demoscene](/resources/questions/what-is-the-demoscene/) term used to describe a competitive event or format.
 
 ## What is a game compo?
-A "game compo" is a competitive event format for games.
-
-A competitive game focused event might also call itself a "game compo". See ["competitive game jam"](/resources/questions/what-is-a-jam/).
+A "game compo" is a competitive event or format for games. See ["competitive game jam"](/resources/questions/what-is-a-jam/).
 
 
 ## Ludum Dare
-Championed by [Mike Kasprzak](/resources/questions/who-is-mike-kasprzak/), Ludum Dare used to call itself a "game compo" to differentiate it's competitive event format from the casual event format of the [Indie Game Jam](/resources/questions/what-is-the-indie-game-jam/).
+Championed by [Mike Kasprzak](/resources/questions/who-is-mike-kasprzak/), Ludum Dare used to call itself a "game compo" to differentiate its competitive format from the casual format of the [Indie Game Jam](/resources/questions/what-is-the-indie-game-jam/).
 
-In the years that followed, the term ["game jam"](/resources/questions/what-is-a-jam/) grew to include both casual and competitive events, and "game compo" fell out of favour.
+In the years that followed, the term ["game jam"](/resources/questions/what-is-a-jam/) grew to include both casual and competitive formats, and "game compo" fell out of favour.
 
 Today, Ludum Dare calls itself a ["game jam"](/resources/questions/what-is-a-game-jam).
 
