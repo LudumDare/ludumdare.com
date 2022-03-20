@@ -11,7 +11,7 @@ references = [
 ]
 +++
 
-| Event | Year | Host (Keynote) | Username | Keynote theme, Notes |
+| Event | Year | Host's name (Keynote) | Username | Keynote theme, Notes |
 |       |      |                |          |                         |
 | Ludum Dare 0&ndash;14 | | none | | |
 | Ludum Dare 15 | 2009 | [Mike Hommel](https://www.youtube.com/watch?v=n6xT4zxWjys) | [Hamumu](https://ldjam.com/users/hamumu) | "History" |
