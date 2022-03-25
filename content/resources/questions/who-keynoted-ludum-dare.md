@@ -16,12 +16,12 @@ references = [
 | Ludum Dare 0&ndash;14 | | none | | |
 | Ludum Dare 15 | 2009 | [Mike Hommel](https://www.youtube.com/watch?v=n6xT4zxWjys) | [Hamumu](https://ldjam.com/users/hamumu) | "History" |
 | Ludum Dare 16 | 2009 | none | | |
-| Ludum Dare 17 | 2010 | [Phil Hassey](https://www.youtube.com/watch?v=5AiS4ZoZhlY) | [philhassey](https://ldjam.com/users/pov) | Goat |
+| Ludum Dare 17 | 2010 | [Phil Hassey](https://www.youtube.com/watch?v=5AiS4ZoZhlY) | [philhassey](https://ldjam.com/users/philhassey) | Goat |
 | Ludum Dare 18 | 2010 | [Mike Kasprzak](https://www.youtube.com/watch?v=YNS9qtyCa1E) | [PoV](https://ldjam.com/users/pov) | |
 | Ludum Dare 19 | 2010 | [???](https://www.youtube.com/watch?v=LpULMsVIrFA) | [+](https://ldjam.com/users/towlr) | |
 | Ludum Dare 20 | 2011 | [Sos Sosowski](https://www.youtube.com/watch?v=ez59GtnxWtA) | [Sos](https://ldjam.com/users/sos) | |
 | Ludum Dare 21 | 2011 | [Christer Kaitila](https://www.youtube.com/watch?v=aHD1QBP4ww8) | [mcfunkypants](https://ldjam.com/users/mcfunkypants) | |
-| Ludum Dare 22 | 2011 | Chris Hopp<!--https://www.youtube.com/watch?v=ik88RpVfvYY--> | [fydo](https://ldjam.com/users/fydo) | |
+| Ludum Dare 22 | 2011 | [Fydo](https://www.youtube.com/watch?v=ik88RpVfvYY) | [fydo](https://ldjam.com/users/fydo) | |
 | Ludum Dare 23 | 2012 | Chevy Ray Johnston<sup>&dagger;</sup> (SWF) | | Interactive, Adobe Flash |
 | Ludum Dare 24 | 2012 | [Seth A. Robinson](https://www.youtube.com/watch?v=v1ByVqh0jrU) | [SethR](https://ldjam.com/users/sethr) | |
 | Ludum Dare 25 | 2012 | [Richard Perrin](https://www.youtube.com/watch?v=e1LVakqPJXE) | [perrin](https://ldjam.com/users/perrin) | Myst |
