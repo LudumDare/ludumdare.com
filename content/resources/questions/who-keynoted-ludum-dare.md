@@ -21,7 +21,7 @@ references = [
 | Ludum Dare 19 | 2010 | [???](https://www.youtube.com/watch?v=LpULMsVIrFA) | [+](https://ldjam.com/users/towlr) | |
 | Ludum Dare 20 | 2011 | [Sos Sosowski](https://www.youtube.com/watch?v=ez59GtnxWtA) | [Sos](https://ldjam.com/users/sos) | |
 | Ludum Dare 21 | 2011 | [Christer Kaitila](https://www.youtube.com/watch?v=aHD1QBP4ww8) | [mcfunkypants](https://ldjam.com/users/mcfunkypants) | |
-| Ludum Dare 22 | 2011 | [Fydo](https://www.youtube.com/watch?v=ik88RpVfvYY) | [fydo](https://ldjam.com/users/fydo) | |
+| Ludum Dare 22 | 2011 | [fydo](https://www.youtube.com/watch?v=ik88RpVfvYY) | [fydo](https://ldjam.com/users/fydo) | |
 | Ludum Dare 23 | 2012 | Chevy Ray Johnston<sup>&dagger;</sup> (SWF) | | Interactive, Adobe Flash |
 | Ludum Dare 24 | 2012 | [Seth A. Robinson](https://www.youtube.com/watch?v=v1ByVqh0jrU) | [SethR](https://ldjam.com/users/sethr) | |
 | Ludum Dare 25 | 2012 | [Richard Perrin](https://www.youtube.com/watch?v=e1LVakqPJXE) | [perrin](https://ldjam.com/users/perrin) | Myst |
@@ -34,7 +34,7 @@ references = [
 | Ludum Dare 32 | 2015 | [Jari Komppa](https://www.youtube.com/watch?v=vPneI5IYwnc) | [Sol_HSA](https://ldjam.com/users/sol-hsa) | |
 | Ludum Dare 33 | 2015 | [Friedrich Hanisch](https://www.youtube.com/watch?v=XVrgCgtKobI) | [ratking](https://ldjam.com/users/ratking) | Science |
 | Ludum Dare 34 | 2015 | [Lena LeRay](https://www.youtube.com/watch?v=8rLma_1RPU8) | [Crowbeak](https://ldjam.com/users/crowbeak) | |
-| Ludum Dare 35 | 2016 | [Gary Napper, Catherine Woolley](https://www.youtube.com/watch?v=mFef1bOn4EI)
+| Ludum Dare 35 | 2016 | [Gary Napper, Catherine Woolley](https://www.youtube.com/watch?v=mFef1bOn4EI) | [designernap](https://ldjam.com/users/designernap), [catmoo](https://ldjam.com/users/catmoo) | |
 | Ludum Dare 36 | 2016 | [Christer Kaitila](https://www.youtube.com/watch?v=u3R70NlGvKk) | [mcfunkypants](https://ldjam.com/users/mcfunkypants) | |
 | Ludum Dare 37 | 2016 | [Daniël Haazen](https://www.youtube.com/watch?v=dOcstOra19w) | [Sheepolution](https://ldjam.com/users/sheepolution) | |
 | [Ludum Dare 38](https://ldjam.com/events/ludum-dare/38) | 2017 | [Marcel Baarsch](https://www.youtube.com/watch?v=Hrkv31Lep9s) | [dmitrix](https://ldjam.com/users/dmitrix) | Interviews, GDC 2017 |
