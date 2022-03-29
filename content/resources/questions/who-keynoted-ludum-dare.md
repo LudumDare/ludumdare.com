@@ -18,7 +18,7 @@ references = [
 | Ludum Dare 16 | 2009 | none | | |
 | Ludum Dare 17 | 2010 | [Phil Hassey](https://www.youtube.com/watch?v=5AiS4ZoZhlY) | [philhassey](https://ldjam.com/users/philhassey) | Goat |
 | Ludum Dare 18 | 2010 | [Mike Kasprzak](https://www.youtube.com/watch?v=YNS9qtyCa1E) | [PoV](https://ldjam.com/users/pov) | |
-| Ludum Dare 19 | 2010 | [???](https://www.youtube.com/watch?v=LpULMsVIrFA) | [+](https://ldjam.com/users/towlr) | |
+| Ludum Dare 19 | 2010 | [Thise "Bear" Thingg](https://www.youtube.com/watch?v=LpULMsVIrFA) | [+](https://ldjam.com/users/towlr) | |
 | Ludum Dare 20 | 2011 | [Sos Sosowski](https://www.youtube.com/watch?v=ez59GtnxWtA) | [Sos](https://ldjam.com/users/sos) | |
 | Ludum Dare 21 | 2011 | [Christer Kaitila](https://www.youtube.com/watch?v=aHD1QBP4ww8) | [mcfunkypants](https://ldjam.com/users/mcfunkypants) | |
 | Ludum Dare 22 | 2011 | [fydo](https://www.youtube.com/watch?v=ik88RpVfvYY) | [fydo](https://ldjam.com/users/fydo) | |
