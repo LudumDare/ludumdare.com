@@ -49,7 +49,7 @@ references = [
 | [Ludum Dare 47](https://ldjam.com/events/ludum-dare/47) | 2020 | [Snowdrama](https://www.youtube.com/watch?v=iJNnETTeFVM) | [Snowdrama](https://ldjam.com/users/snowdrama) | |
 | [Ludum Dare 48](https://ldjam.com/events/ludum-dare/48) | 2021 | [Mike Kasprzak](https://www.youtube.com/watch?v=GaTZP0buvXQ) | [PoV](https://ldjam.com/users/pov) | Q&A |
 | [Ludum Dare 49](https://ldjam.com/events/ludum-dare/49) | 2021 | [Jupiter Hadley](https://www.youtube.com/watch?v=M_IFDFYr3Dc) | [Jupiter_Hadley](https://ldjam.com/users/jupiter-hadley) | Story |
-| [Ludum Dare 50](https://ldjam.com/events/ludum-dare/50) | 2022 | Mike Kasprzak, plus guests | [PoV](https://ldjam.com/users/pov) | Reunion |
+| [Ludum Dare 50](https://ldjam.com/events/ludum-dare/50) | 2022 | [Mike Kasprzak, plus guests](https://www.youtube.com/watch?v=XC2KGu__2Ws) | [PoV](https://ldjam.com/users/pov) | Reunion |
 
 A YouTube playlist of can be [found here](https://www.youtube.com/playlist?list=PLR6JP4o7aTY8gqBd0eeN7wr4u-6_zy_Ny).
 
