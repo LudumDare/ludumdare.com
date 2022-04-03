@@ -83,9 +83,15 @@ You cannot reset a password if you never completed verification, or activated yo
 
 
 # What if I don't have an account?
-Start here:
+Create one here:
 
 <https://ldjam.com/#user-register>
+
+
+# What if I know my password, but not my email?
+Log in and visit this URL:
+
+<https://api.ldjam.com/vx/user/whoami>
 
 
 # Why can't the website confirm if my email exists?
