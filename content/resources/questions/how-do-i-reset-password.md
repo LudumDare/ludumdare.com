@@ -28,7 +28,7 @@ For security reasons, the website can not confirm if this worked or not. See bel
 Account creation, activation, and reset emails come from the following senders.
 
 * `hello@ldjam.com`
-* `hello@jammer.vg` (2021 or earlier)
+* `hello@jammer.vg` (before 2021)
 
 Search your email inbox for messages from these senders, and check who they were sent to.
 
