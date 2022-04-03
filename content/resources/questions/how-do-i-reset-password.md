@@ -51,7 +51,7 @@ For example, with Gmail:
 
 All 4 of these will reach the same inbox.
 
-Aliases are extremely useful, but they are nonstandard features. Not every provider supports them, or supports them in the same way. We can't assume that `joechest@gmail.com` and `joe.c.hest@gmail.com` are the same. You must use the exact email you signed up with.
+**IMPORTANT**: Aliases are a nonstandard features. Not every email provider supports them, or supports them in the same way.
 
 
 # What is a `ludumdare.com/compo` account?
