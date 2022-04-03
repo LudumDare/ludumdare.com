@@ -55,9 +55,11 @@ Aliases are extremely useful, but they are nonstandard features. Not every provi
 
 
 # What is a `ludumdare.com/compo` account?
-In 2017 the Ludum Dare event was moved to a brand new website, where everyone was required to create new accounts. If you participated before 2017, you have an account on the old website, but not necessarily one on the `ldjam.com` website.
+In 2017 the Ludum Dare event was moved to a brand new website, where everyone was required to create new accounts. If you participated before 2017, you have an account on the old website, but not necessarily one on `ldjam.com`.
 
-We recommend checking for an activation email.
+If you are sure you have an account, we recommend checking for an activation email (described above).
+
+Alternatively, you can confirm if your user page exists (described below).
 
 
 # How can I check if an account exists?
@@ -65,9 +67,9 @@ You can confirm an account exists by visiting its user page.
 
 User page URLs look like this: `https://ldjam.com/users/YOUR-USERNAME`, where `YOUR-USERNAME` is your username.
 
-For example, Mike's username is `PoV`. His user page is <https://ldjam.com/users/pov>. 
+For example, Mike's username is `PoV`. His user page is [https://ldjam.com/users/pov](//ldjam.com/users/pov)
 
-Alternatively, you could also use <https://ldjam.com/users/PoV>. In URLs, usernames are lower case. The website will correct this automatically.
+Alternatively, you could also use [https://ldjam.com/users/PoV](//ldjam.com/users/PoV).
 
 If you get a `404` error, the account does not exist.
 
