@@ -21,7 +21,7 @@ If you didn't receive an email, chances are the problem is one of these.
 * You never activated your account
 * You don't have an account
 
-For security reasons, the website can not confirm if this worked or not. [See below][](why-cant-the-website-confirm-if-my-email-exists) for more details.
+For security reasons, the website can not confirm if this worked or not. See below.[](why-cant-the-website-confirm-if-my-email-exists) for more details.
 
 
 # How can I check my email?
@@ -95,7 +95,7 @@ Log in and visit this URL:
 
 
 # Why can't the website confirm if my email exists?
-This would be a data leak. 
+We can't securely confirm or deny if an email address exists. 
 
-If we were anything but vague here, a malicious actor use password reset to figure out the emails of users with a brute-force attack.
+If we were anything but vague here, a malicious actor could extract emails using brute-force.
 
