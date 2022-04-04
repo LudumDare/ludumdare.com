@@ -9,23 +9,23 @@ Use this link, and enter your email to reset your password.
 
 <https://ldjam.com/#user-reset>
 
-You will receive an email. Follow the link to change your password.
+You should receive an email a few minutes later. Follow the link to change your password.
 
 
-# What if I don't get the email?
-If you didn't receive an email, chances are the problem is one of these.
+## What if I don't get the email?
+If you don't receive an email, the problem should be one of the following:
 
 * You used the wrong email address
 * You used an email alias (Gmail, ProtonMail, etc)
-* You have an old `ludumdare.com/compo` account, but not an `ldjam.com` account
+* You have an old `ludumdare.com/compo` account, but not a newer `ldjam.com` account
 * You never activated your account
 * You don't have an account
 
-For security reasons, the website can not confirm if this worked or not. See below.[](why-cant-the-website-confirm-if-my-email-exists) for more details.
+For security reasons, we can't specifically say if we found your email or not (see below[](why-cant-the-website-confirm-if-my-email-exists)).
 
 
-# How can I check my email?
-Account creation, activation, and reset emails come from the following senders.
+## How can I check my email?
+We send emails from the following addresses.
 
 * `hello@ldjam.com`
 * `hello@jammer.vg` (before 2021)
@@ -36,11 +36,13 @@ Your activation email may look like this.
 
 ![](/resources/questions/sample-email.png)
 
-Note that the email was sent to `joe.c.hest@gmail.com`.
+In the example above, that the email was sent to `joe.c.hest@gmail.com`.
+
+Alternatively, if you know your username and password, you can lookup you email address (see below). 
 
 
-# What is an email alias?
-Some emails providers send multiple addresses to the same inbox.
+## What is an email alias?
+Some emails providers route multiple addresses to the same inbox.
 
 For example, with Gmail:
 
@@ -54,15 +56,15 @@ All 4 of these will reach the same inbox.
 **IMPORTANT**: Aliases are a nonstandard features. Not every email provider supports them, or supports them in the same way.
 
 
-# What is a `ludumdare.com/compo` account?
-In 2017 the Ludum Dare event was moved to a brand new website, where everyone was required to create new accounts. If you participated before 2017, you have an account on the old website, but not necessarily one on `ldjam.com`.
+## What is a `ludumdare.com/compo` account?
+In 2017 the Ludum Dare event was moved to a brand new website, where everyone was required to create new accounts. If you participated before 2017, you have an account on the old website (`ludumdare.com/compo`), but not necessarily one on `ldjam.com`.
 
 If you are sure you have an account, we recommend checking for an activation email (described above).
 
-Alternatively, you can confirm if your user page exists (described below).
+Alternatively, you could also confirm if your user page exists (see below).
 
 
-# How can I check if an account exists?
+## How can I check if an account or user page exists?
 You can confirm an account exists by visiting its user page.
 
 User page URLs look like this: `https://ldjam.com/users/YOUR-USERNAME`, where `YOUR-USERNAME` is your username.
@@ -74,7 +76,7 @@ Alternatively, you could also use [https://ldjam.com/users/PoV](//ldjam.com/user
 If you get a `404` error, the account does not exist.
 
 
-# What does it mean to activate an account?
+## What does it mean to activate an account?
 When creating an account, you are sent a verification email. The email contains a link you must click to continue creating your account. 
 
 The link takes you to a page where you choose your name and password. When finished, your account is activated.
@@ -82,20 +84,30 @@ The link takes you to a page where you choose your name and password. When finis
 You cannot reset a password if you never completed verification, or activated your account.
 
 
-# What if I don't have an account?
+## What if I don't have an account?
 Create one here:
 
 <https://ldjam.com/#user-register>
 
 
-# What if I know my password, but not my email?
-Log in and visit this URL:
+## What if I know my password, but not my email?
+We don't have a page for this yet, but you can still look it up with the API.
+
+Log in to your account, then visit this URL.
 
 <https://api.ldjam.com/vx/user/whoami>
 
+It will output a short JSON response similar to this: 
 
-# Why can't the website confirm if my email exists?
+```js
+{"status":200,"caller_id":48,"mail":["joe.c.hest@gmail.com"]}
+```
+
+In this example, the email address is `joe.c.hest@gmail.com`.
+
+
+## Why can't the website confirm if my email exists?
 We can't securely confirm or deny if an email address exists. 
 
-If we were anything but vague here, a malicious actor could extract emails using brute-force.
+If we were to output anything more specific, a malicious actor could abuse this to extract emails.
 

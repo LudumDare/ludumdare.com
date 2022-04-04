@@ -3,6 +3,7 @@
 body article {
     width: $width;
     margin: 4rem auto;
+    line-height: 1.5em;
 
     &.press {
         width: $min_width;
@@ -45,6 +46,20 @@ body article {
             padding: 0.25em 0.5em;
             padding-right: 1em;
         }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin: 1.5em 0 0.5em;
+    }
+
+    :not(pre) code {
+        background: #DDD;
+        padding: 0.125rem 0.25rem;
+        color: #A44;
+    }
+
+    pre {
+        padding: 1rem;
     }
 
     a[href^="http"]:not([href^="https://ludumdare.com"]):not([href^="http://127.0.0.1:1111"]) {
