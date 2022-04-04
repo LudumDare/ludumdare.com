@@ -36,7 +36,7 @@ Your activation email may look like this.
 
 ![](/resources/questions/sample-email.png)
 
-In the example above, that the email was sent to `joe.c.hest@gmail.com`.
+In the example above, that the email was sent to `odin.c.hest@gmail.com`.
 
 Alternatively, if you know your username and password, you can lookup you email address (see below). 
 
@@ -46,10 +46,10 @@ Some emails providers route multiple addresses to the same inbox.
 
 For example, with Gmail:
 
-* `joechest@gmail.com`
-* `joe.chest@gmail.com`
-* `joe.c.hest@googlemail.com`
-* `joe.c.hest+ludumdare@gmail.com`
+* `odinchest@gmail.com`
+* `odin.chest@gmail.com`
+* `odin.c.hest@googlemail.com`
+* `odin.c.hest+ludumdare@gmail.com`
 
 All 4 of these will reach the same inbox.
 
@@ -100,10 +100,10 @@ Log in to your account, then visit this URL.
 It will output a short JSON response similar to this: 
 
 ```js
-{"status":200,"caller_id":48,"mail":["joe.c.hest@gmail.com"]}
+{"status":200,"caller_id":48,"mail":["odin.c.hest@gmail.com"]}
 ```
 
-In this example, the email address is `joe.c.hest@gmail.com`.
+In this example, the email address is `odin.c.hest@gmail.com`.
 
 
 ## Why can't the website confirm if my email exists?
