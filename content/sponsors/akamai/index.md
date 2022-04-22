@@ -1,11 +1,12 @@
 +++
 title = "Akamai"
 weight = 5          # lower numbers come first
-draft = true
+#draft = true
 [extra]
 active = true
-logo.light = "/placeholder.png"
-logo.dark = "/placeholder.png"
+logo.light = "/sponsors/akamai/Akamai-White.png"
+logo.dark = "/sponsors/akamai/Akamai-Black.png"
+logo.color = "/sponsors/akamai/Akamai-Color.png"
 link = "https://akamai.com"
 +++
 Akamai has sponsored the following events:

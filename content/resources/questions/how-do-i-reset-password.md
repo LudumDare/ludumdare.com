@@ -2,10 +2,10 @@
 title = "How do I reset my password?"
 weight = 99
 [taxonomies]
-Categories = ["Security"]
+Categories = ["Account", "Security"]
 +++
 
-Use this link, and enter your email to reset your password.
+Use this link, and enter your email.
 
 <https://ldjam.com/#user-reset>
 
@@ -36,9 +36,9 @@ Your activation email may look like this.
 
 ![](/resources/questions/sample-email.png)
 
-In the example above, that the email was sent to `odin.c.hest@gmail.com`.
+In the example above, the email was sent to `odin.c.hest@gmail.com`.
 
-Alternatively, if you know your username and password, you can lookup you email address (see below). 
+Alternatively, if you know your username and password, you can lookup your email address (see below). 
 
 
 ## What is an email alias?
@@ -57,7 +57,7 @@ All 4 of these will reach the same inbox.
 
 
 ## What is a `ludumdare.com/compo` account?
-In 2017 the Ludum Dare event was moved to a brand new website, where everyone was required to create new accounts. If you participated before 2017, you have an account on the old website (`ludumdare.com/compo`), but not necessarily one on `ldjam.com`.
+In 2017 the Ludum Dare event was moved to a brand new website, and everyone was required to create new accounts. If you participated before 2017, you have an account on the old website (`ludumdare.com/compo`), but not necessarily on `ldjam.com`.
 
 If you are sure you have an account, we recommend checking for an activation email (described above).
 
@@ -76,12 +76,22 @@ Alternatively, you could also use [https://ldjam.com/users/PoV](//ldjam.com/user
 If you get a `404` error, the account does not exist.
 
 
+## What if the account exists, and I don't know the email?
+After confirming the user page exists, please confirm the page is yours by browsing, checking if the games and blogs posted are you.
+
+Admittedly mixups like this arne't common, but they have happened.
+
+
+
+
 ## What does it mean to activate an account?
 When creating an account, you are sent a verification email. The email contains a link you must click to continue creating your account. 
 
 The link takes you to a page where you choose your name and password. When finished, your account is activated.
 
 You cannot reset a password if you never completed verification, or activated your account.
+
+
 
 
 ## What if I don't have an account?
