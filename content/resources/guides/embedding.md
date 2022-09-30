@@ -101,6 +101,6 @@ function loadImage(url) {
   img.src = url;        // triggers the request (setter)
 }
 ```
-Because of the `img.crossOrigin = ''` line, the request for `asset/player1.png` includes an `Origin: null` header. Our server responds with an `Access-Control-Allow-Origin: *` header, which tells the browser you have permission to read it.
+Because of the `img.crossOrigin = ''` line, the request for `asset/player1.png` includes an `Origin: null` HTTP header. Our server responds with an `Access-Control-Allow-Origin: *` HTTP header, which is how the browser knows you have permission to read it.
 
 More details: <https://stackoverflow.com/a/46461959>
