@@ -20,7 +20,7 @@ We support many common file formats. If you're not sure what to use, we recommen
   * Microsoft: `msi`, `exe`, `com`
   * Apple: `dmg`, `ipa`
   * Linux: `flatpak`, `snap`, `deb`, `rpm`, `pkg`, `apk` (Android)
-  * Document: `pdf`, `epub`
+  * Document: `pdf`, `epub`, `txt`
   * Legacy: `jar`, `swf`
 * Max file size: 256 MB
 
