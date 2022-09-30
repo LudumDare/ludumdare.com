@@ -57,7 +57,8 @@ Our embeds are a standard `<iframe>`. You should be able to use any feature supp
 
 * `requestFullScreen()`
 * Performance features, via [cross-origin isolation](https://web.dev/cross-origin-isolation-guide/) (`SharedArrayBuffer`, high resolution timers)
-* WebAssembly `wasm` files (`Content-Type: application/wasm`)
+* WebAssembly Content-Type (`application/wasm`)
+* [Unity Content-Encoding formats](https://docs.unity3d.com/Manual/webgl-deploying.html) (`gzip`, `br`)
 
 GitHub discussion on additional browser features: https://github.com/JammerCore/JammerCore/discussions/2172
 
