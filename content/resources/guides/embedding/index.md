@@ -80,17 +80,23 @@ At the time of this writing this is unsupported. If there's enough interest, we 
 
 GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2173>
 
-### Exporter Notes
+## Exporters
 
 #### Unity
+Use the WebGL exporter.
 
+![](WebGLPublishingWindow.png)
+
+Unity's WebGL exporter should work as soon as you do the following. 
 
 * Disable **Data Caching** [(requires IndexedDB)](https://docs.unity3d.com/ScriptReference/PlayerSettings.WebGL-dataCaching.html)
-* Choose any compression option. Brotli is best.
-  * Support for Safari became available starting in MacOS 10.13 High Sierra ((MDN)[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding], (CanIUse)[https://caniuse.com/brotli])
+* Choose any compression format. Brotli is best.
+  * Support in Safari became available in MacOS 10.13 High Sierra ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding), [CanIUse](https://caniuse.com/brotli))
+
+More information: <https://docs.unity3d.com/Manual/webgl-deploying.html>
 
 
-### Troubleshooting
+## Troubleshooting
 
 #### "Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext': The cross-origin image at ..." or "Uncaught DOMException: The operation is insecure."
 Problem: `texImage2D` doesn't have permission to read image resources.
