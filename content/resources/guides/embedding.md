@@ -75,4 +75,32 @@ For privacy and security reasons, we will not be allowing access to external web
 ### Embedding embedded Ludum Dare games on other websites
 At the time of this writing this is unsupported. If there's enough interest, we may add this.
 
-GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2172>
+GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2173>
+
+### Troubleshooting
+
+#### "Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext': The cross-origin image at ..." or "Uncaught DOMException: The operation is insecure."
+Problem: `texImage2D` doesn't have permission to read image resources.
+
+Solution: Get permission to read by setting `crossOrigin` on your `Image`'s request. Passing an empty string or `'anonymous'` to `crossOrigin` makes it an anonymous CORS request ([MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin)).
+
+```javascript
+const gl = document.createElement("canvas").getContext("webgl");
+const tex = gl.createTexture();
+gl.bindTexture(gl.TEXTURE_2D, tex);
+
+loadImage('asset/player1.png');
+
+function loadImage(url) {
+  const img = new Image();
+  img.onload = () => {
+    // load the texture into VRAM. this fails if you don't have permission to access the response
+    gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+  };
+  img.crossOrigin = ''; // ask for (anonymous) permission to access the response
+  img.src = url;        // triggers the request (setter)
+}
+```
+Because of the `img.crossOrigin = ''` line, the request for `asset/player1.png` includes an `Origin: null` header. Our server responds with an `Access-Control-Allow-Origin: *` header, which tells the browser you have permission to read it.
+
+More details: <https://stackoverflow.com/a/46461959>
