@@ -16,7 +16,7 @@ We support many common file formats. If you're not sure what to use, we recommen
 
 ### Details
 * Supported file extension(s):
-  * Archives: `zip`, `tar.gz`, `tar.bz2`, `7z`, `rar`
+  * Archive: `zip`, `tar.gz`, `tar.bz2`, `7z`, `rar`
   * Microsoft: `msi`, `exe`, `com`
   * Apple: `dmg`, `ipa`
   * Linux: `flatpak`, `snap`, `deb`, `rpm`, `pkg`, `apk` (Android)
