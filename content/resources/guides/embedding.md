@@ -80,6 +80,16 @@ At the time of this writing this is unsupported. If there's enough interest, we 
 
 GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2173>
 
+### Exporter Notes
+
+#### Unity
+
+
+* Disable **Data Caching** [(requires IndexedDB)](https://docs.unity3d.com/ScriptReference/PlayerSettings.WebGL-dataCaching.html)
+* Choose any compression option. Brotli is best.
+  * Support for Safari became available starting in MacOS 10.13 High Sierra ((MDN)[https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding], (CanIUse)[https://caniuse.com/brotli])
+
+
 ### Troubleshooting
 
 #### "Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext': The cross-origin image at ..." or "Uncaught DOMException: The operation is insecure."
@@ -107,3 +117,4 @@ function loadImage(url) {
 Because of the `img.crossOrigin = ''` line, the request for `asset/player1.png` includes an `Origin: null` HTTP header. Our server responds with an `Access-Control-Allow-Origin: *` HTTP header, which is how the browser knows you have permission to read it.
 
 More details: <https://stackoverflow.com/a/46461959>
+
