@@ -5,7 +5,7 @@ weight = 100
 [taxonomies]
 Categories = ["Account"]
 +++
-Since Ludum Dare 51, we now support uploading and embedding to game pages.
+Since Ludum Dare 51, we now support uploading and embedding on game pages.
 
 Uploading to Ludum Dare is not required, but some features (embedding) are only supported if you upload.
 
@@ -19,14 +19,14 @@ We support many common file formats. If you're not sure what to use, we recommen
   * Archive: `zip`, `tar.gz`, `tar.bz2`, `7z`, `rar`
   * Microsoft: `msi`, `exe`, `com`
   * Apple: `dmg`, `ipa`
-  * Linux: `flatpak`, `snap`, `deb`, `rpm`, `pkg`, `apk` (Android)
+  * Linux: `flatpak`, `snap`, `appimage`, `deb`, `rpm`, `pkg`, `apk` (Android)
   * Document: `pdf`, `epub`, `txt`
   * Legacy: `jar`, `swf`
 * Max file size: 256 MB
 
 **IMPORTANT**: Embedded games have different restrictions. See below for details.
 
-GitHub discussion on additional formats: <https://github.com/JammerCore/JammerCore/discussions/2171>
+GitHub discussion for additional formats: <https://github.com/JammerCore/JammerCore/discussions/2171>
 
 ## Embedding
 You can embed web games directly on a game pages. We support HTML5 games 
@@ -83,15 +83,13 @@ GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2173>
 ## Exporters
 
 #### Unity
-Use the WebGL exporter.
-
 ![](WebGLPublishingWindow.png)
 
 Unity's WebGL exporter should work as soon as you do the following. 
 
 * Disable **Data Caching** [(requires IndexedDB)](https://docs.unity3d.com/ScriptReference/PlayerSettings.WebGL-dataCaching.html)
-* Choose any compression format. Brotli is best.
-  * Support in Safari became available in MacOS 10.13 High Sierra ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding), [CanIUse](https://caniuse.com/brotli))
+
+We support Brotli (best) and Gzip compression. ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding), [CanIUse](https://caniuse.com/brotli))
 
 More information: <https://docs.unity3d.com/Manual/webgl-deploying.html>
 
