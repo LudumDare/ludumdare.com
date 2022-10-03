@@ -101,6 +101,10 @@ Disable PWA.
 We're still investigating, but we've heard from some people that that replacing the `if` checks for `('serviceWorker' in Navigator)` with `false` in the `.js` file fixes the Service Worker error.
 
 
+### libGDX
+Edit `html.nocache.js` and replace `document.compatMode` with the string `"CSS1Compat"`.
+
+
 ## Troubleshooting
 
 #### "Uncaught DOMException: Failed to execute 'texImage2D' on 'WebGLRenderingContext': The cross-origin image at ..." or "Uncaught DOMException: The operation is insecure."
