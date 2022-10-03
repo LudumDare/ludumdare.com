@@ -82,7 +82,7 @@ GitHub discussion: <https://github.com/JammerCore/JammerCore/discussions/2173>
 
 ## Exporters
 
-#### Unity
+### Unity
 ![](WebGLPublishingWindow.png)
 
 Unity's WebGL exporter should work as soon as you do the following. 
@@ -92,6 +92,13 @@ Unity's WebGL exporter should work as soon as you do the following.
 We support Brotli (best) and Gzip compression. ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding), [CanIUse](https://caniuse.com/brotli))
 
 More information: <https://docs.unity3d.com/Manual/webgl-deploying.html>
+
+### Godot
+Disable PWA.
+
+![](GodotServiceWorker.png)
+
+We're still investigating, but we've heard from some people that that replacing the `if` checks for `('serviceWorker' in Navigator)` with `false` in the `.js` file fixes the Service Worker error.
 
 
 ## Troubleshooting
