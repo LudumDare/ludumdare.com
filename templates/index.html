@@ -75,7 +75,7 @@
             <h1>Schedule</h1>
             {% for event in schedule.pages | reverse %}
             {# display only the events from the future (and last x days) -- seconds * minutes * hours * days #}
-            {% if event.date | date(format="%s") | int + (60*60*24*45) >= (now(timestamp = true)) %}
+            {% if event.date | date(format="%s") | int + (60*60*24*21) >= (now(timestamp = true)) %}
                 <p><strong>{{event.title}}</strong> — <span class="date">{{event.extra.datestring.range}}</span></p>
             {% endif %}
             {% endfor %}
