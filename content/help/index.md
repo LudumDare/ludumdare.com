@@ -10,7 +10,7 @@ aliases = [
 
 TODO: Add a searchbox
 
-* [Rules](/resources/rules)
+* [Rules](https://ldjam.com/events/ludum-dare/rules)
 * [Guides](/resources/guides)
 * [Questions](/resources/questions)
 * [Topics](/resources/topics)
