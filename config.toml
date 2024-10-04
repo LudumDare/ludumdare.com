@@ -13,7 +13,7 @@ minify_html = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 # When set to "true", a feed is automatically generated.
-generate_feed = true
+generate_feeds = true
 
 ignored_content = ["*.markdown"]
 
