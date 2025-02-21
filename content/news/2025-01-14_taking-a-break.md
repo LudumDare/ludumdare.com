@@ -1,8 +1,12 @@
 +++
-title = "Taking a break: 2025 events cancelled"
+title = "Taking a break (EDIT: Updated)"
 [extra]
 where = "London, Ontario"
 +++
+
+**Update**: This is no longer true! April is back! See the follow up post for more details!
+
+## Orignal Post
 Hey folks, Mike here with some sad news.
 
 To the point: I've decided to cancel our scheduled 2025 events.
