@@ -36,4 +36,4 @@ AI is everywhere these days. To ban it outright we'd have to ban the use of Adob
 
 Ludum Dare isn't a silo. Whether we like it or not, AI is used by professionals across the gaming industry. Banning it wouldn't accurately reflect the real world.
 
-That said we still want to celebrate artists, which is why we ask those using AI tools to opt-out of artist categories.
+That said we still want to celebrate artists, which is why we ask those using AI tools to opt-out of artistic categories.
