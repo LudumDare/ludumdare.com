@@ -1,5 +1,5 @@
 +++
-title = "GameMakert"
+title = "GameMaker"
 weight = 5          # lower numbers come first
 #draft = true
 [extra]
